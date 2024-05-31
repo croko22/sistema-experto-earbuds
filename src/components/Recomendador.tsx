@@ -1,114 +1,134 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import data from "../assets/earphone";
+console.log(data);
+const knowledgeBase = data;
+// const knowledgeBase = {
+//   "Sony WF-1000XM4": {
+//     features: [
+//       "Bluetooth 5.3",
+//       "Conexión Multipunto Continua",
+//       "Cancelación de Ruido Activa",
+//       "Sonido de Alta Fidelidad",
+//       "Batería de Larga Duración",
+//       "Diseño Ergonómico",
+//     ],
+//     price: 250,
+//     shape: "Bud",
+//   },
+//   "Apple AirPods Pro": {
+//     features: [
+//       "Bluetooth 5.3",
+//       "Conexión Multipunto Continua",
+//       "Cancelación de Ruido Activa",
+//       "Modo Transparencia",
+//       "Sonido Envolvente",
+//       "Ajuste Personalizado",
+//     ],
+//     price: 249,
+//     shape: "Stem",
+//   },
+//   "Jabra Elite 85t": {
+//     features: [
+//       "Bluetooth 5.2",
+//       "Conexión Multipunto Continua",
+//       "Cancelación de Ruido Activa",
+//       "HearThrough",
+//       "Sonido Personalizable",
+//       "Ajuste Cómodo",
+//     ],
+//     price: 230,
+//     shape: "Bud",
+//   },
+//   "Samsung Galaxy Buds Pro": {
+//     features: [
+//       "Bluetooth 5.1",
+//       "Conexión Multipunto Continua",
+//       "Cancelación de Ruido Activa",
+//       "Sonido Envolvente con Dolby Atmos",
+//       "Modo Juego de Baja Latencia",
+//       "Carga Inalámbrica",
+//     ],
+//     price: 200,
+//     shape: "Bud",
+//   },
+//   "Bose QuietComfort Earbuds": {
+//     features: [
+//       "Bluetooth 5.1",
+//       "Cancelación de Ruido Activa Líder en la Industria",
+//       "Modo de Conciencia Natural",
+//       "Sonido Realista",
+//       "Batería de Larga Duración",
+//       "Ajuste Personalizado",
+//     ],
+//     price: 280,
+//     shape: "Bud",
+//   },
+// };
 
-const knowledgeBase = {
-  "Sony WF-1000XM4": {
-    features: [
-      "Bluetooth 5.3",
-      "Conexión Multipunto Continua",
-      "Cancelación de Ruido Activa",
-      "Sonido de Alta Fidelidad",
-      "Batería de Larga Duración",
-      "Diseño Ergonómico",
-    ],
-    price: 250,
-    shape: "Bud",
-  },
-  "Apple AirPods Pro": {
-    features: [
-      "Bluetooth 5.3",
-      "Conexión Multipunto Continua",
-      "Cancelación de Ruido Activa",
-      "Modo Transparencia",
-      "Sonido Envolvente",
-      "Ajuste Personalizado",
-    ],
-    price: 249,
-    shape: "Stem",
-  },
-  "Jabra Elite 85t": {
-    features: [
-      "Bluetooth 5.2",
-      "Conexión Multipunto Continua",
-      "Cancelación de Ruido Activa",
-      "HearThrough",
-      "Sonido Personalizable",
-      "Ajuste Cómodo",
-    ],
-    price: 230,
-    shape: "Bud",
-  },
-  "Samsung Galaxy Buds Pro": {
-    features: [
-      "Bluetooth 5.1",
-      "Conexión Multipunto Continua",
-      "Cancelación de Ruido Activa",
-      "Sonido Envolvente con Dolby Atmos",
-      "Modo Juego de Baja Latencia",
-      "Carga Inalámbrica",
-    ],
-    price: 200,
-    shape: "Bud",
-  },
-  "Bose QuietComfort Earbuds": {
-    features: [
-      "Bluetooth 5.1",
-      "Cancelación de Ruido Activa Líder en la Industria",
-      "Modo de Conciencia Natural",
-      "Sonido Realista",
-      "Batería de Larga Duración",
-      "Ajuste Personalizado",
-    ],
-    price: 280,
-    shape: "Bud",
-  },
-};
+// const categorias = [
+//   {
+//     categoria: "Bluetooth",
+//     opciones: ["Bluetooth 5.3", "Bluetooth 5.2", "Bluetooth 5.1"],
+//   },
+//   {
+//     categoria: "Conexión",
+//     opciones: ["Conexión Multipunto Continua"],
+//   },
+//   {
+//     categoria: "Cancelacion",
+//     opciones: [
+//       "Cancelación de Ruido Activa",
+//       "Cancelación de Ruido Activa Líder en la Industria",
+//     ],
+//   },
+//   {
+//     categoria: "Sonido",
+//     opciones: [
+//       "Sonido de Alta Fidelidad",
+//       "Sonido Envolvente",
+//       "Sonido Envolvente con Dolby Atmos",
+//       "Sonido Realista",
+//       "Sonido Personalizable",
+//     ],
+//   },
+//   {
+//     categoria: "Bateria",
+//     opciones: ["Batería de Larga Duración", "Carga Inalámbrica"],
+//   },
+//   {
+//     categoria: "Diseno",
+//     opciones: ["Diseño Ergonómico", "Ajuste Personalizado", "Ajuste Cómodo"],
+//   },
+//   {
+//     categoria: "Modo",
+//     opciones: [
+//       "Modo Transparencia",
+//       "Modo de Conciencia Natural",
+//       "Modo Juego de Baja Latencia",
+//     ],
+//   },
+// ];
 
 const categorias = [
   {
-    categoria: "Bluetooth",
-    opciones: ["Bluetooth 5.3", "Bluetooth 5.2", "Bluetooth 5.1"],
-  },
-  {
-    categoria: "Conexión",
-    opciones: ["Conexión Multipunto Continua"],
-  },
-  {
-    categoria: "Cancelacion",
-    opciones: [
-      "Cancelación de Ruido Activa",
-      "Cancelación de Ruido Activa Líder en la Industria",
-    ],
-  },
-  {
-    categoria: "Sonido",
-    opciones: [
-      "Sonido de Alta Fidelidad",
-      "Sonido Envolvente",
-      "Sonido Envolvente con Dolby Atmos",
-      "Sonido Realista",
-      "Sonido Personalizable",
-    ],
-  },
-  {
-    categoria: "Bateria",
-    opciones: ["Batería de Larga Duración", "Carga Inalámbrica"],
-  },
-  {
-    categoria: "Diseno",
-    opciones: ["Diseño Ergonómico", "Ajuste Personalizado", "Ajuste Cómodo"],
-  },
-  {
     categoria: "Modo",
-    opciones: [
-      "Modo Transparencia",
-      "Modo de Conciencia Natural",
-      "Modo Juego de Baja Latencia",
-    ],
+    opciones: ["Selfie remote function"],
+  },
+  {
+    categoria: "WEA",
+    opciones: ["3D audio"],
+  },
+  {
+    categoria: "WEA",
+    opciones: ["Active noise cancelling"],
+  },
+  {
+    categoria: "WEA",
+    opciones: ["In-app EQ"],
   },
 ];
 
 const Unique_Shapes_of_Earbuds = ["Bud", "Stem", "Hook"];
-const Price_Range_of_Earbuds = [20.0, 405.0];
 
 function Recomendador() {
   const [respuestas, setRespuestas] = useState({});
@@ -117,6 +137,18 @@ function Recomendador() {
   const [diagnostico, setDiagnostico] = useState("");
   const [price, setPrice] = useState(null);
   const [shape, setShape] = useState(null);
+
+  const [earbud, setEarbud] = useState(null);
+  useEffect(() => {
+    if (diagnostico) {
+      for (const [key, value] of Object.entries(knowledgeBase)) {
+        if (key === diagnostico) {
+          setEarbud(value);
+          break;
+        }
+      }
+    }
+  }, [diagnostico]);
 
   const procesarRespuesta = (respuesta) => {
     if (categoriaIndex === -2) {
@@ -183,7 +215,7 @@ function Recomendador() {
       {categoriaIndex === -2 && (
         <div className="mb-4">
           <h3 className="mb-4 text-2xl">Seleccione el rango de precio:</h3>
-          <div>
+          <div className="flex flex-wrap gap-2">
             <button
               className="px-4 py-2 mr-2 text-white bg-red-500"
               onClick={() => procesarRespuesta(100)}
@@ -252,7 +284,24 @@ function Recomendador() {
       {diagnostico && (
         <div className="mb-4">
           <p className="mb-4 text-xl">Recomendación: {diagnostico}</p>
-          <button onClick={resetear}>Reiniciar Diagnóstico</button>
+          <button
+            onClick={resetear}
+            className="px-4 py-2 text-white bg-red-500"
+          >
+            Reiniciar Diagnóstico
+          </button>
+
+          {earbud && (
+            <div>
+              <h3 className="mb-4 text-2xl">Características:</h3>
+              <ul>
+                {earbud.features.map((feature) => (
+                  <li key={feature}>{feature}</li>
+                ))}
+              </ul>
+              <p className="mt-4">Precio: ${earbud.price}</p>
+            </div>
+          )}
         </div>
       )}
     </div>

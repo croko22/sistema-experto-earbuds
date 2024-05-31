@@ -479,3 +479,14 @@ export const Set_Of_features = [
   "cancelling,Multipoint,Wireless",
   "EQ,Spatial",
 ];
+
+const transformedData = earbudsData.reduce((acc, earbud) => {
+  acc[earbud.Title] = {
+    features: earbud.Features,
+    price: earbud.Price,
+    shape: earbud.Shape,
+  };
+  return acc;
+}, {});
+
+console.log(transformedData);
