@@ -73,7 +73,7 @@ function App() {
             <div className="p-4 bg-white rounded-t-[10px] flex-1">
               <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
               <div className="max-w-md mx-auto">
-                <Drawer.Title className="mb-4 font-medium">
+                <Drawer.Title className="mb-4 text-3xl font-medium">
                   Sistema Experto para Auriculares True Wireless
                 </Drawer.Title>
                 <p className="mb-2 text-zinc-600">

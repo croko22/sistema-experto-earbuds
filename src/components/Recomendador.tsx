@@ -181,8 +181,8 @@ function Recomendador() {
   return (
     <div>
       {categoriaIndex === -2 && (
-        <div>
-          <h3>Seleccione el rango de precio:</h3>
+        <div className="mb-4">
+          <h3 className="mb-4 text-2xl">Seleccione el rango de precio:</h3>
           <div>
             <button
               className="px-4 py-2 mr-2 text-white bg-red-500"
@@ -212,8 +212,8 @@ function Recomendador() {
         </div>
       )}
       {categoriaIndex === -1 && (
-        <div>
-          <h3>Seleccione la forma del auricular:</h3>
+        <div className="mb-4">
+          <h3 className="mb-4 text-2xl">Seleccione la forma del auricular:</h3>
           <div>
             {Unique_Shapes_of_Earbuds.map((shapeOption) => (
               <button
@@ -228,8 +228,8 @@ function Recomendador() {
         </div>
       )}
       {categoriaIndex >= 0 && !diagnostico && (
-        <div>
-          <h3>
+        <div className="mb-4">
+          <h3 className="mb-4 text-2xl">
             ¿El audífono tiene{" "}
             {categorias[categoriaIndex].opciones[sintomaIndex]}?
           </h3>
@@ -250,8 +250,8 @@ function Recomendador() {
         </div>
       )}
       {diagnostico && (
-        <div>
-          <p>Recomendación: {diagnostico}</p>
+        <div className="mb-4">
+          <p className="mb-4 text-xl">Recomendación: {diagnostico}</p>
           <button onClick={resetear}>Reiniciar Diagnóstico</button>
         </div>
       )}
