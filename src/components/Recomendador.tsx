@@ -1,30 +1,32 @@
 import React, { useState } from "react";
 
 const knowledgeBase = {
-  "True Wireless": ["Inalambrico", "Compacto"],
-  "Over-ear": ["Grande", "Comodo"],
-  Inalambrico: ["SoundPEATS Air3", "QCY T13"],
-  Compacto: ["Anker Soundcore Life P3", "JBL Live Pro+ TWS"],
-  Grande: ["Sony WH-1000XM4", "Bose QC35"],
-  Comodo: ["Sony WH-1000XM4", "Jabra Elite 85t"],
+  "Sony WF-1000XM4": ["Bluetooth 5.3", "Conexión Multipunto Continua"],
+  "Apple AirPods Pro": ["Bluetooth 5.3", "Conexión Multipunto Continua"],
+  "Jabra Elite 85t": ["Bluetooth 5.3", "Conexión Multipunto Continua"],
+  "Samsung Galaxy Buds Pro": ["Bluetooth 5.3", "Conexión Multipunto Continua"],
+  "Bose QuietComfort Earbuds": [
+    "Bluetooth 5.3",
+    "Conexión Multipunto Continua",
+  ],
 };
 
 function Recomendador() {
   const [tipo, setTipo] = useState("");
-  const [respuesta, setRespuesta] = useState("");
+  const [respuesta, setRespuesta] = useState([]);
   const [pregunta, setPregunta] = useState("");
   const [diagnostico, setDiagnostico] = useState("");
 
   const iniciarDiagnostico = (tipo) => {
     const sintomas = knowledgeBase[tipo];
-    const siguiente = siguientePregunta(sintomas);
+    const siguiente = siguientePregunta(sintomas, respuesta);
     setTipo(tipo);
     setPregunta(siguiente);
   };
 
-  const procesarRespuesta = () => {
-    if (!respuesta) return;
-    const nuevosHechos = [...respuesta];
+  const procesarRespuesta = (respuesta) => {
+    const nuevosHechos = [...respuesta, pregunta];
+    setRespuesta(nuevosHechos);
     const diagnostico = obtenerDiagnostico(nuevosHechos);
     if (diagnostico) {
       setDiagnostico(diagnostico);
@@ -63,26 +65,31 @@ function Recomendador() {
     <div>
       {!pregunta && !diagnostico && (
         <div>
-          <input
-            type="text"
-            value={tipo}
-            onChange={(e) => setTipo(e.target.value)}
-            placeholder="Tipo de audífono"
-          />
-          <button onClick={() => iniciarDiagnostico(tipo)}>
-            Iniciar Diagnóstico
-          </button>
+          <h3>Elige un tipo de audífono:</h3>
+          <div>
+            {Object.keys(knowledgeBase).map((tipo) => (
+              <button key={tipo} onClick={() => iniciarDiagnostico(tipo)}>
+                {tipo}
+              </button>
+            ))}
+          </div>
         </div>
       )}
       {pregunta && (
         <div>
-          <p>{pregunta}</p>
-          <input
-            type="text"
-            value={respuesta}
-            onChange={(e) => setRespuesta(e.target.value)}
-          />
-          <button onClick={procesarRespuesta}>Enviar</button>
+          <h3>{pregunta}</h3>
+          <div>
+            <button onClick={() => procesarRespuesta([...respuesta, pregunta])}>
+              Sí
+            </button>
+            <button
+              onClick={() =>
+                procesarRespuesta([...respuesta, `no-${pregunta}`])
+              }
+            >
+              No
+            </button>
+          </div>
         </div>
       )}
       {diagnostico && <p>Recomendación: {diagnostico}</p>}
