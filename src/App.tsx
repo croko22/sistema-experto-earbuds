@@ -46,22 +46,22 @@ function App() {
     // Add logic to start the expert system here
   };
   return (
-    <body className="antialiased bg-white max-h-screen">
-      <h1 className="text-4xl font-light text-center mt-8 mb-4">
+    <body className="max-h-screen antialiased bg-white">
+      <h1 className="mt-8 mb-4 text-4xl font-light text-center">
         Sistema Experto para Auriculares True Wireless
       </h1>
       <img
         src="wireless-earbuds.jpg"
         alt="Placeholder"
-        className="w-full h-96 object-cover rounded-md"
+        className="object-cover w-full rounded-md h-96"
       />
       <Drawer.Root shouldScaleBackground>
         <Drawer.Trigger
           asChild
-          className="fixed left-1/2 transform -translate-x-1/2"
+          className="fixed transform -translate-x-1/2 left-1/2"
         >
           <button
-            className="bg-blue-500 text-white text-2xl px-8 py-4 mt-10 rounded-lg shadow-lg hover:bg-blue-600 transition-colors duration-200"
+            className="px-8 py-4 mt-10 text-2xl text-white transition-colors duration-200 bg-blue-500 rounded-lg shadow-lg hover:bg-blue-600"
             onClick={startSystem}
           >
             Encuentra tus auriculares ideales
@@ -73,26 +73,26 @@ function App() {
             <div className="p-4 bg-white rounded-t-[10px] flex-1">
               <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
               <div className="max-w-md mx-auto">
-                <Drawer.Title className="font-medium mb-4">
+                <Drawer.Title className="mb-4 font-medium">
                   Sistema Experto para Auriculares True Wireless
                 </Drawer.Title>
-                <p className="text-zinc-600 mb-2">
+                <p className="mb-2 text-zinc-600">
                   Te haremos algunas preguntas para encontrar los auriculares
                   que mejor se adaptan a tus necesidades.
                 </p>
                 {/* //* QUESTION */}
                 <Recomendador />
-                <Question
+                {/* <Question
                   questionNumber={questionNumber.toString()}
                   questionText={question.question}
                   answers={question.answers}
                   handleAnswer={handleAnswer}
-                />
+                /> */}
               </div>
             </div>
-            <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">
+            <div className="p-4 mt-auto border-t bg-zinc-100 border-zinc-200">
               <Drawer.Close
-                className="bg-zinc-500 text-white px-4 py-2 rounded-md"
+                className="px-4 py-2 text-white rounded-md bg-zinc-500"
                 onClick={() => setStart(false)}
               >
                 Cerrar sistema experto

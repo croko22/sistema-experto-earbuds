@@ -1,0 +1,4577 @@
+[
+    {
+        "Title": "Baseus Encok W06",
+        "Price": 68,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Wear detection. mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IP55",
+        "Company": "Baseus"
+    },
+    {
+        "Title": "Galaxy Buds2 Pro",
+        "Price": 180,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Transparency mode",
+            "In-app EQ",
+            "Active noise cancelling",
+            "Wear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 29,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX7",
+        "Company": "Samsung"
+    },
+    {
+        "Title": "OPPO Enco X2",
+        "Price": 170,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Transparency mode",
+            "In-app EQ",
+            "Active noise cancelling",
+            "Multipoint",
+            "Fast Pair",
+            "24-bit"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Oppo"
+    },
+    {
+        "Title": "Soundcore Liberty Air 2 Pro",
+        "Price": 60,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Transparency mode",
+            "In-app EQ",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 26,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "Beoplay E8 3rd gen",
+        "Price": 250,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "none",
+        "Company": "Bang & Olufsen"
+    },
+    {
+        "Title": "LG TONE Free T90",
+        "Price": 230,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Transparency mode",
+            "Active noise cancelling",
+            "In-app EQ",
+            "Multipoint",
+            "Dolby Atmos",
+            "Dolby Head Tracking"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 27,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "LG"
+    },
+    {
+        "Title": "Bowers & Wilkins PI7",
+        "Price": 350,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Transparency mode",
+            "Active noise cancelling",
+            "audio retransmission",
+            "in-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP54",
+        "Company": "Bowers & Wilkins"
+    },
+    {
+        "Title": "Bowers & Wilkins Pi5 S2",
+        "Price": 300,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Transparency mode",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Bowers & Wilkins"
+    },
+    {
+        "Title": "Earfun Free Pro",
+        "Price": 50,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Transparency mode",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "EarFun"
+    },
+    {
+        "Title": "Skullcandy Indy ANC",
+        "Price": 50,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Tile tracking",
+            "Transparency mode",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "none",
+        "Company": "Skullcandy"
+    },
+    {
+        "Title": "Skullcandy Grind Fuel",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Wireless charging",
+            "Tile tracking",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP55",
+        "Company": "Skullcandy"
+    },
+    {
+        "Title": "NuraTrue Pro",
+        "Price": 330,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Multipoint",
+            "Transparency mode",
+            "Active noise cancelling",
+            "spatial Audio"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Nura"
+    },
+    {
+        "Title": "Soundcore Liberty 3 Pro",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Multipoint",
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "SOUNDPEATS Q",
+        "Price": 50,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 21,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX5",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "Mpow M12",
+        "Price": 25,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 25,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX8",
+        "Company": "Mpow"
+    },
+    {
+        "Title": "Soundcore Life A1",
+        "Price": 50,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Wireless charging",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX7",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "EarFun Air (2022)",
+        "Price": 60,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX7",
+        "Company": "EarFun"
+    },
+    {
+        "Title": "TOZO Crystal Buds",
+        "Price": 40,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "In-app EQ",
+            "Battery percentage meter",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX7",
+        "Company": "TOZO"
+    },
+    {
+        "Title": "Marshall Motif ANC",
+        "Price": 200,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Mono mode",
+            "in-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 26,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "Marshall"
+    },
+    {
+        "Title": "Moondrop Alice",
+        "Price": 190,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 48,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "none",
+        "Company": "Moondrop"
+    },
+    {
+        "Title": "Soundcore Liberty 2 Pro",
+        "Price": 50,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Wireless charging",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "1MORE True Wireless Active Noise Cancelling In-Ear Headphones",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Wireless charging",
+            "Active noise cancelling",
+            "Transparency mode",
+            "THX Certified",
+            "wear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 22,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "none",
+        "Company": "1More"
+    },
+    {
+        "Title": "OnePlus Buds Pro",
+        "Price": 100,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Multipoint",
+            "Warp charge"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 38,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP55",
+        "Company": "OnePlus"
+    },
+    {
+        "Title": "JBL Reflect Flow Pro",
+        "Price": 180,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP68",
+        "Company": "JBL"
+    },
+    {
+        "Title": "Jaybird Vista 2",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Wireless charging",
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "MIL-STD-810G"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP68",
+        "Company": "Jaybird"
+    },
+    {
+        "Title": "Bowers & Wilkins PI5",
+        "Price": 150,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24.5,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP54",
+        "Company": "Bowers & Wilkins"
+    },
+    {
+        "Title": "TOZO T9 (2022)",
+        "Price": 25,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX7",
+        "Company": "TOZO"
+    },
+    {
+        "Title": "Soundcore Sleep A10",
+        "Price": 180,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "White noise"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 46,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "none",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "Montblanc MTB 03",
+        "Price": 405,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Wear detection",
+            "Multipoint",
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "Montblanc"
+    },
+    {
+        "Title": "Fairbuds",
+        "Price": 162,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "User-replaceable batteries",
+            "in-ear detection",
+            "Multipoint",
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2024,
+        "Water & dust resistance": "IP54",
+        "Company": "Fairphone"
+    },
+    {
+        "Title": "Soundcore Life P3",
+        "Price": 75,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Wireless charging",
+            "In-app EQ",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "Belkin Soundform Immerse",
+        "Price": 145,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "Wireless charging",
+            "Active noise cancelling",
+            "Multipoint",
+            "In-app EQ",
+            "Apple Find My"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 31,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "Belkin"
+    },
+    {
+        "Title": "TOZO NC9 (2022)",
+        "Price": 40,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Wireless charging",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX6",
+        "Company": "TOZO"
+    },
+    {
+        "Title": "Skullcandy Indy Evo",
+        "Price": 40,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Tile tracking",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IP55",
+        "Company": "Skullcandy"
+    },
+    {
+        "Title": "Skullcandy Sesh ANC",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "Tile tracking",
+            "In-app EQ",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 46,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP55",
+        "Company": "Skullcandy"
+    },
+    {
+        "Title": "Redmi Buds 3 Pro",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Multipoint",
+            "Active noise cancelling",
+            "Wireless charging",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "Huawei Freebuds Pro",
+        "Price": 120,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Multipoint",
+            "Active noise cancelling",
+            "Wireless charging",
+            "Find my Earbuds"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "none",
+        "Company": "Huawei"
+    },
+    {
+        "Title": "Jabra Elite 75t",
+        "Price": 95,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "Multipoint",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2019,
+        "Water & dust resistance": "IP55",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "Audio-Technica ATH-SQ1TW",
+        "Price": 80,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Audio-Technica"
+    },
+    {
+        "Title": "MOMENTUM True Wireless 3",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Wireless charging",
+            "Multipoint",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Sennheiser"
+    },
+    {
+        "Title": "Galaxy Buds+",
+        "Price": 120,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Wireless charging",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 22,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IP42",
+        "Company": "Samsung"
+    },
+    {
+        "Title": "Lypertek PurePlay Z3 2.0",
+        "Price": 99,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Wireless charging",
+            "Find My Earbuds"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 80,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX7",
+        "Company": "Lypertek"
+    },
+    {
+        "Title": "Beoplay E8 Sport",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IP57",
+        "Company": "Bang & Olufsen"
+    },
+    {
+        "Title": "Technics EAH-AZ40",
+        "Price": 150,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Multipoint",
+            "Find my earbuds"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 25,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Technics"
+    },
+    {
+        "Title": "JBL Wave Beam",
+        "Price": 61,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Mono mode",
+            "Google Fast Pair"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "JBL"
+    },
+    {
+        "Title": "JBL Wave Buds",
+        "Price": 48,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Mono mode",
+            "Battery level indicator"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "JBL"
+    },
+    {
+        "Title": "Yamaha TW-ES5A Sports Earbuds",
+        "Price": 150,
+        "Shape": "Stem",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "In-ear detection",
+            "low-latency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 34,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX7",
+        "Company": "Yamaha"
+    },
+    {
+        "Title": "Cambridge Audio Melomania Touch",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Find my earbuds",
+            ""
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 50,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Cambridge Audio"
+    },
+    {
+        "Title": "Sony WF-C700N",
+        "Price": 120,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Active noise cancelling",
+            "Multipoint",
+            "DSEE",
+            "Microsoft Swift Pair",
+            "Google Fast Pair"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 15,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "Sony"
+    },
+    {
+        "Title": "Soundcore Life P3i",
+        "Price": 50,
+        "Shape": "Stem",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Active noise cancelling",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "Final ZE8000",
+        "Price": 350,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 15,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Final"
+    },
+    {
+        "Title": "Sennheiser CX Plus True Wireless",
+        "Price": 130,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Sennheiser"
+    },
+    {
+        "Title": "Soundcore Life A2 NC",
+        "Price": 55,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX5",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "JBL Endurance Race TWS",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP67",
+        "Company": "JBL"
+    },
+    {
+        "Title": "JBL Live 300TWS",
+        "Price": 55,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX5",
+        "Company": "JBL"
+    },
+    {
+        "Title": "Powerbeats Pro",
+        "Price": 200,
+        "Shape": "Hook",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "Dolby Atmos",
+            "In-app EQ",
+            "Wear detection (auto play/pause)"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "Lightning",
+        "Release year": 2019,
+        "Water & dust resistance": "IPX4",
+        "Company": "Apple/Beats"
+    },
+    {
+        "Title": "Xiaomi Buds 4 Pro",
+        "Price": 139,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "Wireless charging",
+            "Multipoint",
+            "Spatial audio"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 38,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "1MORE ColorBuds 2",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "Wireless charging",
+            "Mono mode",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "1More"
+    },
+    {
+        "Title": "Status Between 3ANC",
+        "Price": 200,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "Wireless charging",
+            "In-app EQ",
+            "Multipoint",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 12,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX5",
+        "Company": "Status"
+    },
+    {
+        "Title": "Realme Buds Air Pro",
+        "Price": 61,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "Wear Detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 25,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Realme"
+    },
+    {
+        "Title": "Technics EAH-AZ60",
+        "Price": 230,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "Multipoint",
+            "In-app EQ",
+            "Find my earbuds"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 25,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Technics"
+    },
+    {
+        "Title": "Audio Technica ATH-TWX7",
+        "Price": 199,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "Multipoint",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2024,
+        "Water & dust resistance": "IPX4",
+        "Company": "Audio-Technica"
+    },
+    {
+        "Title": "1MORE PistonBuds Pro",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "Mono mode",
+            "wear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "1More"
+    },
+    {
+        "Title": "Fairphone True Wireless Stereo Earbuds",
+        "Price": 109,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "In-ear detection",
+            "mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Fairphone"
+    },
+    {
+        "Title": "EarFun Air Pro SV",
+        "Price": 90,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "In-app EQ",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "EarFun"
+    },
+    {
+        "Title": "OnePlus Nord Buds 2",
+        "Price": 59,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "In-app EQ",
+            "Dolby Atmos"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP55",
+        "Company": "OnePlus"
+    },
+    {
+        "Title": "SOUNDPEATS Capsule3 Pro",
+        "Price": 59,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 52,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "MOMENTUM True Wireless 2",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX4",
+        "Company": "Sennheiser"
+    },
+    {
+        "Title": "Soundcore Sport X10",
+        "Price": 70,
+        "Shape": "Hook",
+        "Controls": "Button(s)",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX7",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "NuraTrue",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Transparency mode",
+            "Active noise cancelling",
+            "Customizable controls"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Nura"
+    },
+    {
+        "Title": "Skullcandy Push Active",
+        "Price": 60,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "Tile tracking",
+            "Transparency mode",
+            "Spotify Tap"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 44,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP55",
+        "Company": "Skullcandy"
+    },
+    {
+        "Title": "Skullcandy Grind",
+        "Price": 50,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Tile tracking",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP55",
+        "Company": "Skullcandy"
+    },
+    {
+        "Title": "Skullcandy Dime 2",
+        "Price": 20,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Tile tracking",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 12,
+        "Charging port": "Micro-USB",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Skullcandy"
+    },
+    {
+        "Title": "vivo TWS 3e",
+        "Price": 25,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Spatial Audio",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 44,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Vivo"
+    },
+    {
+        "Title": "Sony INZONE Buds",
+        "Price": 200,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Spatial Audio",
+            "Active noise cancelling",
+            "2.4 GHz adapter"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "none",
+        "Company": "Sony"
+    },
+    {
+        "Title": "JLab Epic Lab Edition",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Spatial Audio",
+            "wear detection",
+            "Google Fast Pair",
+            "Dolby Atmos",
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Wireless charging",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 56,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP55",
+        "Company": "JLab"
+    },
+    {
+        "Title": "OnePlus Buds Pro 2 Lite",
+        "Price": 115,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Spatial audio",
+            "Google Fast Pair",
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 39,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP55",
+        "Company": "OnePlus"
+    },
+    {
+        "Title": "Soundcore Sleep A20",
+        "Price": 150,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Sleep tracking"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 80,
+        "Charging port": "USB-C",
+        "Release year": 2024,
+        "Water & dust resistance": "none",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "JBL Quantum TWS",
+        "Price": 130,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "simultaneous Bluetooth/2.4GHz connection",
+            "In-app EQ",
+            "Active noise cancelling",
+            "2.4 GHz adapter",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "JBL"
+    },
+    {
+        "Title": "Baseus Bowie MA10 TWS",
+        "Price": 40,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Quick Charge",
+            "Active noise cancelling",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 140,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX6",
+        "Company": "Baseus"
+    },
+    {
+        "Title": "Tribit FlyBuds 3",
+        "Price": 40,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Power bank"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 100,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX7",
+        "Company": "Tribit"
+    },
+    {
+        "Title": "Soundcore VR P10",
+        "Price": 80,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Passthrough charging on dongle",
+            "2.4 GHz adapter"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "OnePlus Nord Buds 2R",
+        "Price": 27,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "OnePlus Fast Pair",
+            "Dolby Atmos",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 38,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP55",
+        "Company": "OnePlus"
+    },
+    {
+        "Title": "1MORE Evo",
+        "Price": 150,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "Wireless charging",
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "1More"
+    },
+    {
+        "Title": "EarFun Air Pro 3",
+        "Price": 56,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "Transparency mode",
+            "Wireless charging",
+            "In-app EQ",
+            "Active noise cancelling",
+            "Ultra Low Latency Mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 45,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX5",
+        "Company": "EarFun"
+    },
+    {
+        "Title": "Moondrop Sparks",
+        "Price": 76,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "NFC pairing",
+            "mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 48,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "none",
+        "Company": "Moondrop"
+    },
+    {
+        "Title": "JBL Live Pro 2",
+        "Price": 100,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "In-app EQ",
+            "Transparency mode",
+            "Wireless charging",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "JBL"
+    },
+    {
+        "Title": "FIIL CC nano",
+        "Price": 70,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "In-app EQ",
+            "Low latency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "FIIL"
+    },
+    {
+        "Title": "Philips Fidelio T1",
+        "Price": 109,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "Google Fast Pair",
+            "wear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 48,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Philips"
+    },
+    {
+        "Title": "Soundpeats Engine4",
+        "Price": 59,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 43,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "LG TONE Free T60",
+        "Price": 150,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "Dolby Atmos",
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "germicidal UV"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "LG"
+    },
+    {
+        "Title": "Jabra Elite 7 Active",
+        "Price": 180,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Multipoint",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "Mono mode",
+            "Alexa Built-in"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP57",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "Philips T8506",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "In-app EQ",
+            "Google Fast Pair",
+            "wear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Philips"
+    },
+    {
+        "Title": "Jabra Elite 5",
+        "Price": 150,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Multipoint",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "In-app EQ",
+            "Google Fast Pair",
+            "Microsoft Swift Pair"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP55",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "Huawei FreeBuds 5i",
+        "Price": 108,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Low-latency mode",
+            "Find my earbuds",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Huawei"
+    },
+    {
+        "Title": "Jabra Elite 4",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Google Fast Pair",
+            "Microsoft Swift Pair",
+            "mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP55",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "1MORE Fit Open Earbuds S50",
+        "Price": 150,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "mono mode",
+            "Wireless charging",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 38,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX7",
+        "Company": "1More"
+    },
+    {
+        "Title": "Skullcandy Sesh Evo",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Mono mode",
+            "Tile tracking"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 19,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IP55",
+        "Company": "Skullcandy"
+    },
+    {
+        "Title": "JLab GO Air POP",
+        "Price": 25,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode",
+            ""
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "Male USB-A",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "JLab"
+    },
+    {
+        "Title": "QCY T13",
+        "Price": 40,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "QCY"
+    },
+    {
+        "Title": "JBL Vibe 200TWS",
+        "Price": 25,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX2",
+        "Company": "JBL"
+    },
+    {
+        "Title": "Tribit MoveBuds H1",
+        "Price": 90,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 50,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX8",
+        "Company": "Tribit"
+    },
+    {
+        "Title": "Mpow Flame Lite",
+        "Price": 50,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX7",
+        "Company": "Mpow"
+    },
+    {
+        "Title": "JBL Endurance Peak II",
+        "Price": 70,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IP67",
+        "Company": "JBL"
+    },
+    {
+        "Title": "Edifier TWS1 Pro",
+        "Price": 45,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 42,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP65",
+        "Company": "Edifier"
+    },
+    {
+        "Title": "OPPO Enco W11",
+        "Price": 36,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IP55",
+        "Company": "Oppo"
+    },
+    {
+        "Title": "Mpow M30",
+        "Price": 43,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX7",
+        "Company": "Mpow"
+    },
+    {
+        "Title": "Taotronics SoundLiberty 97",
+        "Price": 40,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 29,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX8",
+        "Company": "Taotronics"
+    },
+    {
+        "Title": "KZ S2",
+        "Price": 40,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 14,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "none",
+        "Company": "KZ"
+    },
+    {
+        "Title": "Soundcore Life Dot 2",
+        "Price": 50,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 100,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX5",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "Soundcore Life P2",
+        "Price": 46,
+        "Shape": "Stem",
+        "Controls": "Button(s)",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2019,
+        "Water & dust resistance": "IPX7",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "SOUNDPEATS TrueFree 2",
+        "Price": 50,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX7",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "JBL Vibe 100TWS",
+        "Price": 25,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX2",
+        "Company": "JBL"
+    },
+    {
+        "Title": "Mpow MDots",
+        "Price": 34,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "Micro-USB",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX6",
+        "Company": "Mpow"
+    },
+    {
+        "Title": "FIIL T1 XS",
+        "Price": 45,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Low-latency mode",
+            "In-app EQ",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX5",
+        "Company": "FIIL"
+    },
+    {
+        "Title": "OPPO Enco Buds",
+        "Price": 24,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Low-latency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP54",
+        "Company": "Oppo"
+    },
+    {
+        "Title": "SOUNDPEATS Sonic",
+        "Price": 50,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Low-latency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX5",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "SOUNDPEATS H2",
+        "Price": 70,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Low-latency game mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "Huawei FreeBuds Pro 3",
+        "Price": 200,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-ear detection",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Multipoint",
+            "Wireless charging",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 31,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Huawei"
+    },
+    {
+        "Title": "PistonBuds Pro Q30",
+        "Price": 50,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "in-ear detection",
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX5",
+        "Company": "1More"
+    },
+    {
+        "Title": "Edifier NB2 Pro",
+        "Price": 150,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-ear detection",
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP54",
+        "Company": "Edifier"
+    },
+    {
+        "Title": "Nothing Ear (2)",
+        "Price": 149,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-ear detection",
+            "Google Fast Pair",
+            "Microsoft Swift Pair",
+            "Find My Earbuds",
+            "Transparency mode",
+            "Active noise cancelling",
+            "In-app EQ",
+            "Wireless charging",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Nothing"
+    },
+    {
+        "Title": "Jabra Elite 10",
+        "Price": 250,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-ear detection",
+            "Fast Pair",
+            "Swift Pair",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Dolby Atmos",
+            "Wireless charging",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP57",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "Jabra Elite 8 Active",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-ear detection",
+            "Fast Pair",
+            "Swift Pair",
+            "MIL-STD-810h",
+            "Dolby Atmos",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Multipoint",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 56,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP68",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "Redmi Earbuds 3 Pro",
+        "Price": 37,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "EarFun Free 2S",
+        "Price": 80,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX7",
+        "Company": "EarFun"
+    },
+    {
+        "Title": "Avantree Ace M10 / Ace 130T",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "In-app EQ",
+            "USB bluetooth adapter",
+            "mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "Avantree"
+    },
+    {
+        "Title": "Klipsch T5 II True Wireless",
+        "Price": 150,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "In-app EQ",
+            "Transparency mode",
+            "Metal case"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP67",
+        "Company": "Klipsch"
+    },
+    {
+        "Title": "Jabra Elite 3",
+        "Price": 80,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "In-app EQ",
+            "Transparency mode",
+            "Alexa built-in",
+            "mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP55",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "Jabra Elite 85t",
+        "Price": 230,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "In-app EQ",
+            "Transparency mode",
+            "Active noise cancelling",
+            "Multipoint",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 31,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX4",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "Klipsch T5 II True Wireless ANC",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "In-app EQ",
+            "Transparency mode",
+            "Active noise cancelling",
+            "Metal case",
+            "Dirac HD"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Klipsch"
+    },
+    {
+        "Title": "Sony WF-1000XM3",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Transparency mode",
+            "Active noise cancelling",
+            "Dolby Atmos"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2019,
+        "Water & dust resistance": "none",
+        "Company": "Sony"
+    },
+    {
+        "Title": "1MORE ComfoBuds Pro",
+        "Price": 55,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Transparency mode",
+            "Active noise cancelling",
+            "Auto play-pause"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "1More"
+    },
+    {
+        "Title": "JBL Tune 130NC",
+        "Price": 90,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Transparency mode",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "JBL"
+    },
+    {
+        "Title": "Sennheiser SPORT True Wireless",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 27,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Sennheiser"
+    },
+    {
+        "Title": "JLab Air Sport 3rd gen",
+        "Price": 70,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Tile tracking",
+            "Multipoint",
+            "Transparency mode",
+            "Mono mode",
+            "Google Fast Pair"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 44,
+        "Charging port": "Male USB-A",
+        "Release year": 2022,
+        "Water & dust resistance": "IP66",
+        "Company": "JLab"
+    },
+    {
+        "Title": "JLab JBuds Air Pro",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Tile tracking",
+            "Multipoint",
+            "Transparency mode",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "Male USB-A",
+        "Release year": 2022,
+        "Water & dust resistance": "IP55",
+        "Company": "JLab"
+    },
+    {
+        "Title": "JLab Epic Air Sport ANC 2nd gen",
+        "Price": 80,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Tile tracking",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "Low-latency mode",
+            "wear detection",
+            "Google Fast Pair"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 70,
+        "Charging port": "Male USB-A",
+        "Release year": 2022,
+        "Water & dust resistance": "IP66",
+        "Company": "JLab"
+    },
+    {
+        "Title": "Sony WF-1000XM4",
+        "Price": 280,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Multipoint",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Sony"
+    },
+    {
+        "Title": "Jabra Elite 65t",
+        "Price": 70,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "In-app EQ",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 15,
+        "Charging port": "Micro-USB",
+        "Release year": 2018,
+        "Water & dust resistance": "IP55",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "Jaybird Vista",
+        "Price": 150,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "In-app EQ",
+            "mono mode",
+            "find my buds"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 16,
+        "Charging port": "USB-C",
+        "Release year": 2019,
+        "Water & dust resistance": "IPX7",
+        "Company": "Jaybird"
+    },
+    {
+        "Title": "QCY T6",
+        "Price": 25,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "Micro-USB",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX4",
+        "Company": "QCY"
+    },
+    {
+        "Title": "FIIL T1 Lite",
+        "Price": 45,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Low-latency mode",
+            "mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX7",
+        "Company": "FIIL"
+    },
+    {
+        "Title": "Sony WF-C500",
+        "Price": 70,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Google Fast Pair",
+            "Microsoft Swift Pair"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX4",
+        "Company": "Sony"
+    },
+    {
+        "Title": "Realme Buds Air 3S",
+        "Price": 28,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Dolby Atmos"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "Realme"
+    },
+    {
+        "Title": "Sennheiser CX True Wireless",
+        "Price": 80,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Customizable touch controls"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 27,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Sennheiser"
+    },
+    {
+        "Title": "LG TONE Free FP8",
+        "Price": 180,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "UV disinfecting case",
+            "Fast Pair",
+            "Swift Pair"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "LG"
+    },
+    {
+        "Title": "Beyerdynamic Free Byrd",
+        "Price": 230,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Beyerdynamic"
+    },
+    {
+        "Title": "FIIL CC Pro2",
+        "Price": 100,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Sleep mode",
+            "wear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "FIIL"
+    },
+    {
+        "Title": "Surface Earbuds",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX4",
+        "Company": "Microsoft"
+    },
+    {
+        "Title": "Soundcore Life A3i",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "Edifier NeoBuds Pro",
+        "Price": 100,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP54",
+        "Company": "Edifier"
+    },
+    {
+        "Title": "HyperX Cloud MIX Buds",
+        "Price": 120,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "2.4 GHz adapter",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 33,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "HyperX"
+    },
+    {
+        "Title": "Sennheiser CX 400BT",
+        "Price": 120,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "none",
+        "Company": "Sennheiser"
+    },
+    {
+        "Title": "Omthing (1MORE) Airfree Buds",
+        "Price": 25,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 44,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "1More"
+    },
+    {
+        "Title": "QCY T17S",
+        "Price": 25,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 26,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "QCY"
+    },
+    {
+        "Title": "Pixel Buds A",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Google"
+    },
+    {
+        "Title": "Cambridge Audio Melomania 1+",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 45,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "Cambridge Audio"
+    },
+    {
+        "Title": "Bose QuietComfort Ultra Earbuds",
+        "Price": 300,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Google Fast Pair",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "In-app EQ",
+            "Dolby Atmos"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "Bose"
+    },
+    {
+        "Title": "Soundcore Liberty 4 NC",
+        "Price": 100,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Google Fast Pair",
+            "wear detection",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "In-app EQ",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 50,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "realme Buds Air 5 Pro",
+        "Price": 60,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Google Fast Pair",
+            "spatial audio",
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX5",
+        "Company": "Realme"
+    },
+    {
+        "Title": "AirPods Pro (2nd generation, Lightning)",
+        "Price": 250,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Ear detection",
+            "Wireless charging",
+            "Transparency mode",
+            "Active noise cancelling",
+            "Dolby Atmos",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "Lightning",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Apple/Beats"
+    },
+    {
+        "Title": "AirPods Pro (2nd generation, USB-C)",
+        "Price": 250,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Ear detection",
+            "Lossless Audio with Vision Pro",
+            "Wireless charging",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Dolby Atmos",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Apple/Beats"
+    },
+    {
+        "Title": "OnePlus Nord Buds",
+        "Price": 40,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Dolby Atmos",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP55",
+        "Company": "OnePlus"
+    },
+    {
+        "Title": "Denon PerL Pro",
+        "Price": 349,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Dirac Virtuo",
+            "wear detection",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Dolby Atmos",
+            "In-app EQ",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "Denon"
+    },
+    {
+        "Title": "Soundcore A20i",
+        "Price": 30,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "detachable lanyard",
+            "mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX5",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "Bose Sport Earbuds",
+        "Price": 130,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Customizable shortcuts"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 15,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX4",
+        "Company": "Bose"
+    },
+    {
+        "Title": "Razer Hammerhead Hyperspeed",
+        "Price": 150,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Chroma RGB",
+            "simultaneous USB/bluetooth connection",
+            "Active noise cancelling",
+            "2.4 GHz adapter",
+            "Wireless charging",
+            "In-app EQ",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 33,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "none",
+        "Company": "Razer"
+    },
+    {
+        "Title": "HIFIMAN TWS800",
+        "Price": 300,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Built-in amp"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX4",
+        "Company": "HIFIMAN"
+    },
+    {
+        "Title": "Philips Fidelio T2",
+        "Price": 279,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Auracast",
+            "wear detection",
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Multipoint",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "Philips"
+    },
+    {
+        "Title": "Sennheiser Momentum True Wireless 4",
+        "Price": 300,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Auracast",
+            "LE Audio",
+            "Active noise cancelling",
+            "In-app EQ",
+            "Transparency mode",
+            "Wireless charging",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2024,
+        "Water & dust resistance": "IP54",
+        "Company": "Sennheiser"
+    },
+    {
+        "Title": "Beats Studio Buds +",
+        "Price": 170,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Apple Find My",
+            "Google Fast Pair",
+            "Active noise cancelling",
+            "Transparency mode",
+            "Dolby Atmos",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "Apple/Beats"
+    },
+    {
+        "Title": "Soundcore Liberty 4",
+        "Price": 150,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "Transparency mode",
+            "Multipoint",
+            "In-app EQ",
+            "Heart rate monitor"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "OnePlus Buds Pro 2",
+        "Price": 130,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "Transparency mode",
+            "In-app EQ",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 39,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP55",
+        "Company": "OnePlus"
+    },
+    {
+        "Title": "Creative Outlier Air V3",
+        "Price": 42,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "Transparency mode",
+            "In-app EQ",
+            "mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "Creative"
+    },
+    {
+        "Title": "FIIL CC Pro",
+        "Price": 53,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "FIIL"
+    },
+    {
+        "Title": "Galaxy Buds2",
+        "Price": 90,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 29,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX2",
+        "Company": "Samsung"
+    },
+    {
+        "Title": "Bowers & Wilkins Pi7 S2",
+        "Price": 400,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "Transparency mode",
+            "Audio retransmission",
+            "wear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 21,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Bowers & Wilkins"
+    },
+    {
+        "Title": "1MORE ComfoBuds Mini",
+        "Price": 80,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "1More"
+    },
+    {
+        "Title": "1MORE Aero",
+        "Price": 110,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "Multipoint",
+            "Transparency mode",
+            "In-app EQ",
+            "Spatial Audio"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "1More"
+    },
+    {
+        "Title": "1MORE ColorBuds",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 22,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX5",
+        "Company": "1More"
+    },
+    {
+        "Title": "Nothing Ear (1)",
+        "Price": 100,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "In-app EQ",
+            "Transparency mode",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 34,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Nothing"
+    },
+    {
+        "Title": "Beoplay EX",
+        "Price": 400,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "In-app EQ",
+            "Multipoint",
+            "Transparency mode",
+            "Google Fast Pair",
+            "Microsoft Swift Pair"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP57",
+        "Company": "Bang & Olufsen"
+    },
+    {
+        "Title": "Omthing (1MORE) Airfree 2",
+        "Price": 40,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "1More"
+    },
+    {
+        "Title": "Xiaomi Buds 3T Pro",
+        "Price": 150,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "Multipoint",
+            "Spatial audio"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP55",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "Master & Dynamic MW08 Sport",
+        "Price": 349,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "Multipoint",
+            "IPX4 case",
+            "USB-A bluetooth adapter"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 42,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "Master & Dynamic"
+    },
+    {
+        "Title": "Xiaomi Buds 3",
+        "Price": 93,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP55",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "Xiaomi Buds 3 Pro",
+        "Price": 93,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 27,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP55",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "Belkin SoundForm Flow",
+        "Price": 90,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 31,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "Belkin"
+    },
+    {
+        "Title": "EarFun Air S",
+        "Price": 70,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "In-app EQ",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "EarFun"
+    },
+    {
+        "Title": "Echo Buds (2nd Gen)",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging",
+            "In-app EQ",
+            "Alexa built-in"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Amazon/Echo"
+    },
+    {
+        "Title": "Baseus Bowie M2 Plus",
+        "Price": 40,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "none",
+        "Company": "Baseus"
+    },
+    {
+        "Title": "Earfun Air Pro 2",
+        "Price": 60,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 34,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "EarFun"
+    },
+    {
+        "Title": "Earfun Free Pro 2",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "EarFun"
+    },
+    {
+        "Title": "Beoplay EQ",
+        "Price": 300,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Multipoint",
+            "Wireless charging",
+            "In-app EQ",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP54",
+        "Company": "Bang & Olufsen"
+    },
+    {
+        "Title": "Redmi Buds 4 Pro",
+        "Price": 100,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Multipoint",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 36,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "vivo TWS 3",
+        "Price": 70,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Vivo"
+    },
+    {
+        "Title": "EarFun Air Pro",
+        "Price": 80,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Mono mode",
+            "in-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 32,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX5",
+        "Company": "EarFun"
+    },
+    {
+        "Title": "Redmi Buds 4",
+        "Price": 29,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Low-latency mode",
+            "in-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "SOUNDPEATS Mini Pro HS",
+        "Price": 60,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Low-latency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "Logitech Zone True Wireless",
+        "Price": 300,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Wireless charging",
+            "Multipoint",
+            "USB-A Bluetooth receiver"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP68",
+        "Company": "Logitech"
+    },
+    {
+        "Title": "Soundcore Space A40",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Wireless charging",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 50,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "Lypertek PurePlay Z5",
+        "Price": 99,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Wireless charging",
+            "Find my earbuds"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Lypertek"
+    },
+    {
+        "Title": "Sony LinkBuds S",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Sony"
+    },
+    {
+        "Title": "Audio-Technica ATH-TWX9",
+        "Price": 300,
+        "Shape": "Stem",
+        "Controls": "Button(s)",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ",
+            "Multipoint"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 19,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Audio-Technica"
+    },
+    {
+        "Title": "Asus ROG Cetera True Wireless",
+        "Price": 80,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 27,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Asus"
+    },
+    {
+        "Title": "Edifier NeoBuds S",
+        "Price": 180,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 25,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Edifier"
+    },
+    {
+        "Title": "Bose QuietComfort Earbuds II",
+        "Price": 300,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Bose"
+    },
+    {
+        "Title": "Edifier W240TN",
+        "Price": 80,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 26,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP55",
+        "Company": "Edifier"
+    },
+    {
+        "Title": "Jabra Elite 4 Active",
+        "Price": 80,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP57",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "TCL MOVEAUDIO Neo",
+        "Price": 50,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Google Fast Pair"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "TCL"
+    },
+    {
+        "Title": "Galaxy Buds Pro",
+        "Price": 180,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Dolby Atmos",
+            "Wireless charging",
+            "Automatic transparency"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 28,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX7",
+        "Company": "Samsung"
+    },
+    {
+        "Title": "Beats Fit Pro",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Dolby Atmos",
+            "In-ear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Apple/Beats"
+    },
+    {
+        "Title": "OnePlus Buds Z2",
+        "Price": 80,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Dolby Atmos",
+            "In-app EQ",
+            "Mono mode (via app)"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 38,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP55",
+        "Company": "OnePlus"
+    },
+    {
+        "Title": "SOUNDPEATS T3",
+        "Price": 56,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Battery indicator"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 19,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "Moondrop Space Travel",
+        "Price": 25,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 16,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "none",
+        "Company": "Moondrop"
+    },
+    {
+        "Title": "SOUNDPEATS Life",
+        "Price": 50,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 25,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "OPPO Enco Free3",
+        "Price": 73,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP55",
+        "Company": "Oppo"
+    },
+    {
+        "Title": "OPPO Enco Free2",
+        "Price": 83,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP54",
+        "Company": "Oppo"
+    },
+    {
+        "Title": "SOUNDPEATS Air3 Pro",
+        "Price": 80,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "Mpow X3 (version 2)",
+        "Price": 70,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX8",
+        "Company": "Mpow"
+    },
+    {
+        "Title": "SOUNDPEATS Mini Pro",
+        "Price": 70,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 21,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "NuraBuds 2",
+        "Price": 120,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 16,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Nura"
+    },
+    {
+        "Title": "AKG N400NC TWS",
+        "Price": 150,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 12,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX7",
+        "Company": "AKG"
+    },
+    {
+        "Title": "NuraBuds",
+        "Price": 140,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 10,
+        "Charging port": "Micro-USB",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Nura"
+    },
+    {
+        "Title": "SOUNDPEATS T2",
+        "Price": 70,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "Jabra Elite 7 Pro",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Button(s)",
+        "Features": [
+            "Active noise cancelling",
+            "Multipoint",
+            "Transparency mode",
+            "Wireless charging",
+            "In-app EQ",
+            "Alexa Built-in"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IP57",
+        "Company": "Jabra"
+    },
+    {
+        "Title": "vivo TWS 3 Pro",
+        "Price": 140,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Multipoint",
+            "Transparency mode",
+            "Body temperature sensor"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Vivo"
+    },
+    {
+        "Title": "Moondrop Nekocake (2021)",
+        "Price": 43,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Mono mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 12,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "none",
+        "Company": "Moondrop"
+    },
+    {
+        "Title": "JLab Epic Air Sport ANC",
+        "Price": 80,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "In-app EQ",
+            "Transparency mode",
+            "Tile tracking",
+            "Wireless charging",
+            "Wear detection"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 70,
+        "Charging port": "Male USB-A",
+        "Release year": 2020,
+        "Water & dust resistance": "IP66",
+        "Company": "JLab"
+    },
+    {
+        "Title": "Razer Hammerhead True Wireless Pro",
+        "Price": 100,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "In-app EQ",
+            "Transparency mode",
+            "THX Certified",
+            "Low-latency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "none",
+        "Company": "Razer"
+    },
+    {
+        "Title": "Beats Studio Buds",
+        "Price": 100,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "In-app EQ",
+            "Transparency mode",
+            "Dolby Atmos"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Apple/Beats"
+    },
+    {
+        "Title": "Razer Hammerhead True Wireless (2021)",
+        "Price": 90,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "In-app EQ",
+            "Transparency mode",
+            "Chroma RGB"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 33,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Razer"
+    },
+    {
+        "Title": "JBL Tune 230NC",
+        "Price": 70,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "In-app EQ",
+            "Transparency mode"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 40,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "JBL"
+    },
+    {
+        "Title": "Pixel Buds Pro",
+        "Price": 200,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "In-app EQ",
+            "Multipoint",
+            "Transparency mode",
+            "Wireless charging"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 31,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Google"
+    },
+    {
+        "Title": "Ugreen HiTune X6",
+        "Price": 45,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 26,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "none",
+        "Company": "Ugreen"
+    },
+    {
+        "Title": "Logitech G FITS",
+        "Price": 180,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "2.4 GHz adapter",
+            "In-app EQ"
+        ],
+        "Eartip": "Soft tip",
+        "Battery life, incl. case": 12,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Logitech"
+    },
+    {
+        "Title": "AirPods (3rd generation)",
+        "Price": 180,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "In-app EQ",
+            "Spatial Audio",
+            "wear detection",
+            "Magsafe"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "Lightning",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Apple/Beats"
+    },
+    {
+        "Title": "Marshall Minor III",
+        "Price": 130,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Wireless charging",
+            "In-app EQ",
+            "Mono mode"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 25,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX4",
+        "Company": "Marshall"
+    },
+    {
+        "Title": "QCY T21 FairyBuds",
+        "Price": 24,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Selfie remote function"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "QCY"
+    },
+    {
+        "Title": "Edifier TO-U2 mini",
+        "Price": 70,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "OLED status indicator display; mono mode"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 25,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Edifier"
+    },
+    {
+        "Title": "Soundpeats Air4 Lite",
+        "Price": 40,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "In-app EQ"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "none",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "Nothing Ear (stick)",
+        "Price": 100,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "In-app EQ"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 29,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Nothing"
+    },
+    {
+        "Title": "Sony LinkBuds",
+        "Price": 180,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "In-app EQ"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 18,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Sony"
+    },
+    {
+        "Title": "SoundPEATS Air4",
+        "Price": 90,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Multipoint",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 26,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "Soundpeats Runfree Lite",
+        "Price": 39.99,
+        "Shape": "Hook",
+        "Controls": "Button(s)",
+        "Features": [
+            "Multipoint"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 17,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX4",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "Tranya F4",
+        "Price": 60,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Low-latency mode",
+            "mono mode"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX5",
+        "Company": "Tranya"
+    },
+    {
+        "Title": "Xiaomi Air2 SE",
+        "Price": 25,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-ear detection"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "none",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "Huawei FreeBuds 5",
+        "Price": 131,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Wireless charging",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Huawei"
+    },
+    {
+        "Title": "Soundcore Life Note 3S",
+        "Price": 70,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "low-latency/gaming mode"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 35,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "Anker/Soundcore"
+    },
+    {
+        "Title": "FIIL Key",
+        "Price": 48,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ",
+            "Low-latency mode"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "FIIL"
+    },
+    {
+        "Title": "SoundPEATS Air3",
+        "Price": 56,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 17.5,
+        "Charging port": "USB-C",
+        "Release year": 2021,
+        "Water & dust resistance": "IPX5",
+        "Company": "SOUNDPEATS"
+    },
+    {
+        "Title": "AirPods (2nd generation)",
+        "Price": 130,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 24,
+        "Charging port": "Lightning",
+        "Release year": 2019,
+        "Water & dust resistance": "none",
+        "Company": "Apple/Beats"
+    },
+    {
+        "Title": "OnePlus Nord Buds CE",
+        "Price": 29,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IPX4",
+        "Company": "OnePlus"
+    },
+    {
+        "Title": "Cleer Arc",
+        "Price": 110,
+        "Shape": "Hook",
+        "Controls": "Touch",
+        "Features": [
+            "In-app EQ"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 7,
+        "Charging port": "Male USB-A",
+        "Release year": 2022,
+        "Water & dust resistance": "none",
+        "Company": "Cleer"
+    },
+    {
+        "Title": "Redmi Buds 4 Lite",
+        "Price": 25,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Google Fast Pair"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "OPPO Enco Air3",
+        "Price": 30,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Google Fast Pair"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 25,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Oppo"
+    },
+    {
+        "Title": "Echo Buds (2023)",
+        "Price": 50,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Alexa built-in",
+            "Find My Echo Buds",
+            "Multipoint"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 20,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IPX2",
+        "Company": "Amazon/Echo"
+    },
+    {
+        "Title": "Galaxy Buds Live",
+        "Price": 80,
+        "Shape": "Bud",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Wireless charging",
+            "In-app EQ"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 29,
+        "Charging port": "USB-C",
+        "Release year": 2020,
+        "Water & dust resistance": "IPX2",
+        "Company": "Samsung"
+    },
+    {
+        "Title": "Xiaomi Buds 4",
+        "Price": 102,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "Active noise cancelling",
+            "Transparency mode",
+            "Spatial audio"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2022,
+        "Water & dust resistance": "IP54",
+        "Company": "Xiaomi/Redmi"
+    },
+    {
+        "Title": "vivo TWS Air Pro",
+        "Price": 42,
+        "Shape": "Stem",
+        "Controls": "Touch",
+        "Features": [
+            "3D audio",
+            "Active noise cancelling"
+        ],
+        "Eartip": "Hard tip",
+        "Battery life, incl. case": 30,
+        "Charging port": "USB-C",
+        "Release year": 2023,
+        "Water & dust resistance": "IP54",
+        "Company": "Vivo"
+    }
+]
