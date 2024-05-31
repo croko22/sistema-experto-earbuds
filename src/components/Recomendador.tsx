@@ -1,94 +1,110 @@
 import React, { useState } from "react";
 
 const knowledgeBase = {
-  "Sony WF-1000XM4": ["Bluetooth 5.3", "Conexión Multipunto Continua"],
-  "Apple AirPods Pro": ["Bluetooth 5.3", "Conexión Multipunto Continua"],
-  "Jabra Elite 85t": ["Bluetooth 5.3", "Conexión Multipunto Continua"],
-  "Samsung Galaxy Buds Pro": ["Bluetooth 5.3", "Conexión Multipunto Continua"],
-  "Bose QuietComfort Earbuds": [
+  // Updated with more features and values
+  "Sony WF-1000XM4": [
     "Bluetooth 5.3",
     "Conexión Multipunto Continua",
+    "Cancelación de Ruido Activa",
+    "Sonido de Alta Fidelidad",
+    "Batería de Larga Duración",
+    "Diseño Ergonómico",
+  ],
+  "Apple AirPods Pro": [
+    "Bluetooth 5.3",
+    "Conexión Multipunto Continua",
+    "Cancelación de Ruido Activa",
+    "Modo Transparencia",
+    "Sonido Envolvente",
+    "Ajuste Personalizado",
+  ],
+  "Jabra Elite 85t": [
+    "Bluetooth 5.2",
+    "Conexión Multipunto Continua",
+    "Cancelación de Ruido Activa",
+    "HearThrough",
+    "Sonido Personalizable",
+    "Ajuste Cómodo",
+  ],
+  "Samsung Galaxy Buds Pro": [
+    "Bluetooth 5.2",
+    "Conexión Multipunto Continua",
+    "Cancelación de Ruido Activa",
+    "Sonido Envolvente con Dolby Atmos",
+    "Modo Juego de Baja Latencia",
+    "Carga Inalámbrica",
+  ],
+  "Bose QuietComfort Earbuds": [
+    "Bluetooth 5.1",
+    "Cancelación de Ruido Activa Líder en la Industria",
+    "Modo de Conciencia Natural",
+    "Sonido Realista",
+    "Batería de Larga Duración",
+    "Ajuste Personalizado",
   ],
 };
 
+const sintomas = [
+  "Bluetooth 5.3",
+  "Bluetooth 5.2",
+  "Bluetooth 5.1",
+  "Cancelación de Ruido Activa",
+  "Cancelación de Ruido Activa Líder en la Industria",
+  "Sonido de Alta Fidelidad",
+  "Sonido Envolvente",
+  "Sonido Realista",
+  "Sonido Personalizable",
+  "Batería de Larga Duración",
+  "Carga Inalámbrica",
+  "Diseño Ergonómico",
+  "Ajuste Personalizado",
+  "Ajuste Cómodo",
+  "Modo Transparencia",
+  "Modo de Conciencia Natural",
+  "Modo Juego de Baja Latencia",
+];
+
 function Recomendador() {
-  const [tipo, setTipo] = useState("");
-  const [respuesta, setRespuesta] = useState([]);
-  const [pregunta, setPregunta] = useState("");
+  const [respuestas, setRespuestas] = useState({});
+  const [preguntaIndex, setPreguntaIndex] = useState(0);
   const [diagnostico, setDiagnostico] = useState("");
 
-  const iniciarDiagnostico = (tipo) => {
-    const sintomas = knowledgeBase[tipo];
-    const siguiente = siguientePregunta(sintomas, respuesta);
-    setTipo(tipo);
-    setPregunta(siguiente);
-  };
-
   const procesarRespuesta = (respuesta) => {
-    const nuevosHechos = [...respuesta, pregunta];
-    setRespuesta(nuevosHechos);
-    const diagnostico = obtenerDiagnostico(nuevosHechos);
-    if (diagnostico) {
-      setDiagnostico(diagnostico);
-    } else {
-      const sintomas = knowledgeBase[tipo];
-      const siguiente = siguientePregunta(sintomas, nuevosHechos);
-      setPregunta(siguiente);
-    }
-  };
+    const preguntaActual = `¿El audífono tiene ${sintomas[preguntaIndex]}?`;
+    const nuevosHechos = { ...respuestas, [preguntaActual]: respuesta };
+    setRespuestas(nuevosHechos);
 
-  const siguientePregunta = (sintomas, hechosConocidos) => {
-    for (let sintoma of sintomas) {
-      if (
-        !hechosConocidos.includes(sintoma) &&
-        !hechosConocidos.includes(`no-${sintoma}`)
-      ) {
-        return sintoma;
-      }
+    if (preguntaIndex + 1 < sintomas.length) {
+      setPreguntaIndex(preguntaIndex + 1);
+    } else {
+      const diagnostico = obtenerDiagnostico(nuevosHechos);
+      setDiagnostico(diagnostico);
     }
-    return "";
   };
 
   const obtenerDiagnostico = (hechosConocidos) => {
     for (let key in knowledgeBase) {
-      if (Array.isArray(knowledgeBase[key])) {
-        const sintomas = knowledgeBase[key];
-        if (sintomas.every((sintoma) => hechosConocidos.includes(sintoma))) {
-          return key;
-        }
+      const audifonoSintomas = knowledgeBase[key];
+      if (
+        audifonoSintomas.every(
+          (sintoma) =>
+            hechosConocidos[`¿El audífono tiene ${sintoma}?`] === "Sí"
+        )
+      ) {
+        return key;
       }
     }
-    return "";
+    return "No se pudo determinar el audífono recomendado.";
   };
 
   return (
     <div>
-      {!pregunta && !diagnostico && (
+      {preguntaIndex < sintomas.length && !diagnostico && (
         <div>
-          <h3>Elige un tipo de audífono:</h3>
+          <h3>¿El audífono tiene {sintomas[preguntaIndex]}?</h3>
           <div>
-            {Object.keys(knowledgeBase).map((tipo) => (
-              <button key={tipo} onClick={() => iniciarDiagnostico(tipo)}>
-                {tipo}
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-      {pregunta && (
-        <div>
-          <h3>{pregunta}</h3>
-          <div>
-            <button onClick={() => procesarRespuesta([...respuesta, pregunta])}>
-              Sí
-            </button>
-            <button
-              onClick={() =>
-                procesarRespuesta([...respuesta, `no-${pregunta}`])
-              }
-            >
-              No
-            </button>
+            <button onClick={() => procesarRespuesta("Sí")}>Sí</button>
+            <button onClick={() => procesarRespuesta("No")}>No</button>
           </div>
         </div>
       )}
