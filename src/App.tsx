@@ -1,50 +1,7 @@
-import { useState } from "react";
 import { Drawer } from "vaul";
-import Question from "./components/Question";
 import Recomendador from "./components/Recomendador";
 
 function App() {
-  const [start, setStart] = useState(false);
-  const [questionNumber, setQuestionNumber] = useState(0);
-  const [questions, setQuestions] = useState([
-    {
-      question: "¿Prefieres auriculares con cancelación de ruido?",
-      answers: ["Sí", "No"],
-    },
-    {
-      question: "¿Cuál es tu presupuesto?",
-      answers: ["Menos de $50", "$50 - $100", "Más de $100"],
-    },
-    {
-      question: "¿Qué marca prefieres?",
-      answers: ["Apple", "Samsung", "Sony", "JBL", "Otras"],
-    },
-    {
-      question: "¿Qué tipo de auriculares prefieres?",
-      answers: ["In-ear", "On-ear", "Over-ear"],
-    },
-    {
-      question: "¿Qué color prefieres?",
-      answers: [" Blanco", "Gris", "Negro"],
-    },
-  ]);
-  const [question, setQuestion] = useState(questions[questionNumber]);
-
-  const handleAnswer = (question: string, answer: string) => {
-    // Add logic to handle the answer here
-    console.log(question, answer);
-    if (questionNumber + 1 < questions.length)
-      setQuestionNumber(questionNumber + 1);
-    else console.log("Last question");
-    setQuestion(questions[questionNumber]);
-  };
-
-  const startSystem = () => {
-    setStart(true);
-    setQuestionNumber(0);
-
-    // Add logic to start the expert system here
-  };
   return (
     <body className="max-h-screen antialiased bg-white">
       <h1 className="mt-8 mb-4 text-4xl font-light text-center">
@@ -60,10 +17,7 @@ function App() {
           asChild
           className="fixed transform -translate-x-1/2 left-1/2"
         >
-          <button
-            className="px-8 py-4 mt-10 text-2xl text-white transition-colors duration-200 bg-blue-500 rounded-lg shadow-lg hover:bg-blue-600"
-            onClick={startSystem}
-          >
+          <button className="px-8 py-4 mt-10 text-2xl text-white transition-colors duration-200 bg-blue-500 rounded-lg shadow-lg hover:bg-blue-600">
             Encuentra tus auriculares ideales
           </button>
         </Drawer.Trigger>
@@ -82,19 +36,10 @@ function App() {
                 </p>
                 {/* //* QUESTION */}
                 <Recomendador />
-                {/* <Question
-                  questionNumber={questionNumber.toString()}
-                  questionText={question.question}
-                  answers={question.answers}
-                  handleAnswer={handleAnswer}
-                /> */}
               </div>
             </div>
             <div className="p-4 mt-auto border-t bg-zinc-100 border-zinc-200">
-              <Drawer.Close
-                className="px-4 py-2 text-white rounded-md bg-zinc-500"
-                onClick={() => setStart(false)}
-              >
+              <Drawer.Close className="px-4 py-2 text-white rounded-md bg-zinc-500">
                 Cerrar sistema experto
               </Drawer.Close>
             </div>

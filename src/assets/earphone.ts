@@ -1,4 +1,4 @@
-const data = {
+const knowledgeBase = {
   "Baseus Encok W06": {
     features: ["Wireless charging", "Wear detection. mono mode"],
     price: 68,
@@ -6,41 +6,38 @@ const data = {
   },
   "Galaxy Buds2 Pro": {
     features: [
-      [
-        "Wireless charging",
-        "Transparency mode",
-        "In-app EQ",
-        "Active noise cancelling",
-        "Wear detection",
-      ],
+      "Wireless charging",
+      "Transparency mode",
+      "In-app EQ",
+      "Active noise cancelling",
+      "Wear detection",
     ],
+
     price: 180,
     shape: "Bud",
   },
   "OPPO Enco X2": {
     features: [
-      [
-        "Wireless charging",
-        "Transparency mode",
-        "In-app EQ",
-        "Active noise cancelling",
-        "Multipoint",
-        "Fast Pair",
-        "24-bit",
-      ],
+      "Wireless charging",
+      "Transparency mode",
+      "In-app EQ",
+      "Active noise cancelling",
+      "Multipoint",
+      "Fast Pair",
+      "24-bit",
     ],
+
     price: 170,
     shape: "Stem",
   },
   "Soundcore Liberty Air 2 Pro": {
     features: [
-      [
-        "Wireless charging",
-        "Transparency mode",
-        "In-app EQ",
-        "Active noise cancelling",
-      ],
+      "Wireless charging",
+      "Transparency mode",
+      "In-app EQ",
+      "Active noise cancelling",
     ],
+
     price: 60,
     shape: "Stem",
   },
@@ -51,55 +48,58 @@ const data = {
   },
   "LG TONE Free T90": {
     features: [
-      [
-        "Wireless charging",
-        "Transparency mode",
-        "Active noise cancelling",
-        "In-app EQ",
-        "Multipoint",
-        "Dolby Atmos",
-        "Dolby Head Tracking",
-      ],
+      "Wireless charging",
+      "Transparency mode",
+      "Active noise cancelling",
+      "In-app EQ",
+      "Multipoint",
+      "Dolby Atmos",
+      "Dolby Head Tracking",
     ],
+
     price: 230,
     shape: "Stem",
   },
   "Bowers & Wilkins PI7": {
     features: [
-      [
-        "Wireless charging",
-        "Transparency mode",
-        "Active noise cancelling",
-        "audio retransmission",
-        "in-ear detection",
-      ],
+      "Wireless charging",
+      "Transparency mode",
+      "Active noise cancelling",
+      "audio retransmission",
+      "in-ear detection",
     ],
+
     price: 350,
     shape: "Bud",
   },
   "Bowers & Wilkins Pi5 S2": {
     features: [
-      ["Wireless charging", "Transparency mode", "Active noise cancelling"],
+      "Wireless charging",
+      "Transparency mode",
+      "Active noise cancelling",
     ],
+
     price: 300,
     shape: "Bud",
   },
   "Earfun Free Pro": {
     features: [
-      ["Wireless charging", "Transparency mode", "Active noise cancelling"],
+      "Wireless charging",
+      "Transparency mode",
+      "Active noise cancelling",
     ],
+
     price: 50,
     shape: "Bud",
   },
   "Skullcandy Indy ANC": {
     features: [
-      [
-        "Wireless charging",
-        "Tile tracking",
-        "Transparency mode",
-        "Active noise cancelling",
-      ],
+      "Wireless charging",
+      "Tile tracking",
+      "Transparency mode",
+      "Active noise cancelling",
     ],
+
     price: 50,
     shape: "Stem",
   },
@@ -110,27 +110,25 @@ const data = {
   },
   "NuraTrue Pro": {
     features: [
-      [
-        "Wireless charging",
-        "Multipoint",
-        "Transparency mode",
-        "Active noise cancelling",
-        "spatial Audio",
-      ],
+      "Wireless charging",
+      "Multipoint",
+      "Transparency mode",
+      "Active noise cancelling",
+      "spatial Audio",
     ],
+
     price: 330,
     shape: "Bud",
   },
   "Soundcore Liberty 3 Pro": {
     features: [
-      [
-        "Wireless charging",
-        "Multipoint",
-        "In-app EQ",
-        "Active noise cancelling",
-        "Transparency mode",
-      ],
+      "Wireless charging",
+      "Multipoint",
+      "In-app EQ",
+      "Active noise cancelling",
+      "Transparency mode",
     ],
+
     price: 100,
     shape: "Bud",
   },
@@ -156,27 +154,25 @@ const data = {
   },
   "TOZO Crystal Buds": {
     features: [
-      [
-        "Wireless charging",
-        "In-app EQ",
-        "Battery percentage meter",
-        "Mono mode",
-      ],
+      "Wireless charging",
+      "In-app EQ",
+      "Battery percentage meter",
+      "Mono mode",
     ],
+
     price: 40,
     shape: "Bud",
   },
   "Marshall Motif ANC": {
     features: [
-      [
-        "Wireless charging",
-        "In-app EQ",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Mono mode",
-        "in-ear detection",
-      ],
+      "Wireless charging",
+      "In-app EQ",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Mono mode",
+      "in-ear detection",
     ],
+
     price: 200,
     shape: "Stem",
   },
@@ -192,60 +188,59 @@ const data = {
   },
   "1MORE True Wireless Active Noise Cancelling In-Ear Headphones": {
     features: [
-      [
-        "Wireless charging",
-        "Active noise cancelling",
-        "Transparency mode",
-        "THX Certified",
-        "wear detection",
-      ],
+      "Wireless charging",
+      "Active noise cancelling",
+      "Transparency mode",
+      "THX Certified",
+      "wear detection",
     ],
+
     price: 100,
     shape: "Bud",
   },
   "OnePlus Buds Pro": {
     features: [
-      [
-        "Wireless charging",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Multipoint",
-        "Warp charge",
-      ],
+      "Wireless charging",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Multipoint",
+      "Warp charge",
     ],
+
     price: 100,
     shape: "Stem",
   },
   "JBL Reflect Flow Pro": {
     features: [
-      [
-        "Wireless charging",
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Mono mode",
-      ],
+      "Wireless charging",
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Mono mode",
     ],
+
     price: 180,
     shape: "Bud",
   },
   "Jaybird Vista 2": {
     features: [
-      [
-        "Wireless charging",
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "MIL-STD-810G",
-      ],
+      "Wireless charging",
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "MIL-STD-810G",
     ],
+
     price: 100,
     shape: "Bud",
   },
   "Bowers & Wilkins PI5": {
     features: [
-      ["Wireless charging", "Active noise cancelling", "Transparency mode"],
+      "Wireless charging",
+      "Active noise cancelling",
+      "Transparency mode",
     ],
+
     price: 150,
     shape: "Bud",
   },
@@ -261,61 +256,60 @@ const data = {
   },
   "Montblanc MTB 03": {
     features: [
-      [
-        "Wear detection",
-        "Multipoint",
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-      ],
+      "Wear detection",
+      "Multipoint",
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
     ],
+
     price: 405,
     shape: "Bud",
   },
   Fairbuds: {
     features: [
-      [
-        "User-replaceable batteries",
-        "in-ear detection",
-        "Multipoint",
-        "In-app EQ",
-        "Active noise cancelling",
-        "Transparency mode",
-      ],
+      "User-replaceable batteries",
+      "in-ear detection",
+      "Multipoint",
+      "In-app EQ",
+      "Active noise cancelling",
+      "Transparency mode",
     ],
+
     price: 162,
     shape: "Bud",
   },
   "Soundcore Life P3": {
     features: [
-      [
-        "Transparency mode",
-        "Wireless charging",
-        "In-app EQ",
-        "Active noise cancelling",
-      ],
+      "Transparency mode",
+      "Wireless charging",
+      "In-app EQ",
+      "Active noise cancelling",
     ],
+
     price: 75,
     shape: "Stem",
   },
   "Belkin Soundform Immerse": {
     features: [
-      [
-        "Transparency mode",
-        "Wireless charging",
-        "Active noise cancelling",
-        "Multipoint",
-        "In-app EQ",
-        "Apple Find My",
-      ],
+      "Transparency mode",
+      "Wireless charging",
+      "Active noise cancelling",
+      "Multipoint",
+      "In-app EQ",
+      "Apple Find My",
     ],
+
     price: 145,
     shape: "Bud",
   },
   "TOZO NC9 (2022)": {
     features: [
-      ["Transparency mode", "Wireless charging", "Active noise cancelling"],
+      "Transparency mode",
+      "Wireless charging",
+      "Active noise cancelling",
     ],
+
     price: 40,
     shape: "Bud",
   },
@@ -326,39 +320,36 @@ const data = {
   },
   "Skullcandy Sesh ANC": {
     features: [
-      [
-        "Transparency mode",
-        "Tile tracking",
-        "In-app EQ",
-        "Active noise cancelling",
-      ],
+      "Transparency mode",
+      "Tile tracking",
+      "In-app EQ",
+      "Active noise cancelling",
     ],
+
     price: 100,
     shape: "Bud",
   },
   "Redmi Buds 3 Pro": {
     features: [
-      [
-        "Transparency mode",
-        "Multipoint",
-        "Active noise cancelling",
-        "Wireless charging",
-        "In-ear detection",
-      ],
+      "Transparency mode",
+      "Multipoint",
+      "Active noise cancelling",
+      "Wireless charging",
+      "In-ear detection",
     ],
+
     price: 60,
     shape: "Bud",
   },
   "Huawei Freebuds Pro": {
     features: [
-      [
-        "Transparency mode",
-        "Multipoint",
-        "Active noise cancelling",
-        "Wireless charging",
-        "Find my Earbuds",
-      ],
+      "Transparency mode",
+      "Multipoint",
+      "Active noise cancelling",
+      "Wireless charging",
+      "Find my earbuds",
     ],
+
     price: 120,
     shape: "Stem",
   },
@@ -374,33 +365,35 @@ const data = {
   },
   "MOMENTUM True Wireless 3": {
     features: [
-      [
-        "Transparency mode",
-        "In-app EQ",
-        "Wireless charging",
-        "Multipoint",
-        "Active noise cancelling",
-      ],
+      "Transparency mode",
+      "In-app EQ",
+      "Wireless charging",
+      "Multipoint",
+      "Active noise cancelling",
     ],
+
     price: 200,
     shape: "Bud",
   },
   "Galaxy Buds+": {
     features: [
-      ["Transparency mode", "In-app EQ", "Wireless charging", "Mono mode"],
+      "Transparency mode",
+      "In-app EQ",
+      "Wireless charging",
+      "Mono mode",
     ],
+
     price: 120,
     shape: "Bud",
   },
   "Lypertek PurePlay Z3 2.0": {
     features: [
-      [
-        "Transparency mode",
-        "In-app EQ",
-        "Wireless charging",
-        "Find My Earbuds",
-      ],
+      "Transparency mode",
+      "In-app EQ",
+      "Wireless charging",
+      "Find my earbuds",
     ],
+
     price: 99,
     shape: "Bud",
   },
@@ -411,71 +404,75 @@ const data = {
   },
   "Technics EAH-AZ40": {
     features: [
-      ["Transparency mode", "In-app EQ", "Multipoint", "Find my earbuds"],
+      "Transparency mode",
+      "In-app EQ",
+      "Multipoint",
+      "Find my earbuds",
     ],
+
     price: 150,
     shape: "Bud",
   },
   "JBL Wave Beam": {
     features: [
-      ["Transparency mode", "In-app EQ", "Mono mode", "Google Fast Pair"],
+      "Transparency mode",
+      "In-app EQ",
+      "Mono mode",
+      "Google Fast Pair",
     ],
+
     price: 61,
     shape: "Stem",
   },
   "JBL Wave Buds": {
     features: [
-      [
-        "Transparency mode",
-        "In-app EQ",
-        "Mono mode",
-        "Battery level indicator",
-      ],
+      "Transparency mode",
+      "In-app EQ",
+      "Mono mode",
+      "Battery level indicator",
     ],
+
     price: 48,
     shape: "Bud",
   },
   "Yamaha TW-ES5A Sports Earbuds": {
     features: [
-      [
-        "Transparency mode",
-        "In-app EQ",
-        "In-ear detection",
-        "low-latency mode",
-      ],
+      "Transparency mode",
+      "In-app EQ",
+      "In-ear detection",
+      "low-latency mode",
     ],
+
     price: 150,
     shape: "Stem",
   },
   "Cambridge Audio Melomania Touch": {
-    features: ["Transparency mode", "In-app EQ", "Find my earbuds", ""],
+    features: ["Transparency mode", "In-app EQ", "Find my earbuds"],
     price: 100,
     shape: "Bud",
   },
   "Sony WF-C700N": {
     features: [
-      [
-        "Transparency mode",
-        "In-app EQ",
-        "Active noise cancelling",
-        "Multipoint",
-        "DSEE",
-        "Microsoft Swift Pair",
-        "Google Fast Pair",
-      ],
+      "Transparency mode",
+      "In-app EQ",
+      "Active noise cancelling",
+      "Multipoint",
+      "DSEE",
+      "Microsoft Swift Pair",
+      "Google Fast Pair",
     ],
+
     price: 120,
     shape: "Bud",
   },
   "Soundcore Life P3i": {
     features: [
-      [
-        "Transparency mode",
-        "In-app EQ",
-        "Active noise cancelling",
-        "Mono mode",
-      ],
+      "Transparency mode",
+      "In-app EQ",
+      "Active noise cancelling",
+      "Mono mode",
     ],
+
     price: 50,
     shape: "Stem",
   },
@@ -506,133 +503,126 @@ const data = {
   },
   "Powerbeats Pro": {
     features: [
-      [
-        "Transparency mode",
-        "Dolby Atmos",
-        "In-app EQ",
-        "Wear detection (auto play/pause)",
-      ],
+      "Transparency mode",
+      "Dolby Atmos",
+      "In-app EQ",
+      "Wear detection (auto play/pause)",
     ],
+
     price: 200,
     shape: "Hook",
   },
   "Xiaomi Buds 4 Pro": {
     features: [
-      [
-        "Transparency mode",
-        "Active noise cancelling",
-        "Wireless charging",
-        "Multipoint",
-        "Spatial audio",
-      ],
+      "Transparency mode",
+      "Active noise cancelling",
+      "Wireless charging",
+      "Multipoint",
+      "Spatial audio",
     ],
+
     price: 139,
     shape: "Stem",
   },
   "1MORE ColorBuds 2": {
     features: [
-      [
-        "Transparency mode",
-        "Active noise cancelling",
-        "Wireless charging",
-        "Mono mode",
-        "In-ear detection",
-      ],
+      "Transparency mode",
+      "Active noise cancelling",
+      "Wireless charging",
+      "Mono mode",
+      "In-ear detection",
     ],
+
     price: 60,
     shape: "Bud",
   },
   "Status Between 3ANC": {
     features: [
-      [
-        "Transparency mode",
-        "Active noise cancelling",
-        "Wireless charging",
-        "In-app EQ",
-        "Multipoint",
-        "Mono mode",
-      ],
+      "Transparency mode",
+      "Active noise cancelling",
+      "Wireless charging",
+      "In-app EQ",
+      "Multipoint",
+      "Mono mode",
     ],
+
     price: 200,
     shape: "Stem",
   },
   "Realme Buds Air Pro": {
     features: [
-      ["Transparency mode", "Active noise cancelling", "Wear Detection"],
+      "Transparency mode",
+      "Active noise cancelling",
+      "Wear Detection",
     ],
+
     price: 61,
     shape: "Stem",
   },
   "Technics EAH-AZ60": {
     features: [
-      [
-        "Transparency mode",
-        "Active noise cancelling",
-        "Multipoint",
-        "In-app EQ",
-        "Find my earbuds",
-      ],
+      "Transparency mode",
+      "Active noise cancelling",
+      "Multipoint",
+      "In-app EQ",
+      "Find my earbuds",
     ],
+
     price: 230,
     shape: "Bud",
   },
   "Audio Technica ATH-TWX7": {
     features: [
-      [
-        "Transparency mode",
-        "Active noise cancelling",
-        "Multipoint",
-        "In-app EQ",
-      ],
+      "Transparency mode",
+      "Active noise cancelling",
+      "Multipoint",
+      "In-app EQ",
     ],
+
     price: 199,
     shape: "Stem",
   },
   "1MORE PistonBuds Pro": {
     features: [
-      [
-        "Transparency mode",
-        "Active noise cancelling",
-        "Mono mode",
-        "wear detection",
-      ],
+      "Transparency mode",
+      "Active noise cancelling",
+      "Mono mode",
+      "wear detection",
     ],
+
     price: 60,
     shape: "Bud",
   },
   "Fairphone True Wireless Stereo Earbuds": {
     features: [
-      [
-        "Transparency mode",
-        "Active noise cancelling",
-        "In-ear detection",
-        "mono mode",
-      ],
+      "Transparency mode",
+      "Active noise cancelling",
+      "In-ear detection",
+      "mono mode",
     ],
+
     price: 109,
     shape: "Stem",
   },
   "EarFun Air Pro SV": {
     features: [
-      [
-        "Transparency mode",
-        "Active noise cancelling",
-        "In-app EQ",
-        "Wireless charging",
-      ],
+      "Transparency mode",
+      "Active noise cancelling",
+      "In-app EQ",
+      "Wireless charging",
     ],
+
     price: 90,
     shape: "Stem",
   },
   "OnePlus Nord Buds 2": {
     features: [
-      [
-        "Transparency mode",
-        "Active noise cancelling",
-        "In-app EQ",
-        "Dolby Atmos",
-      ],
+      "Transparency mode",
+      "Active noise cancelling",
+      "In-app EQ",
+      "Dolby Atmos",
     ],
+
     price: 59,
     shape: "Stem",
   },
@@ -653,8 +643,11 @@ const data = {
   },
   NuraTrue: {
     features: [
-      ["Transparency mode", "Active noise cancelling", "Customizable controls"],
+      "Transparency mode",
+      "Active noise cancelling",
+      "Customizable controls",
     ],
+
     price: 200,
     shape: "Bud",
   },
@@ -675,13 +668,12 @@ const data = {
   },
   "vivo TWS 3e": {
     features: [
-      [
-        "Spatial Audio",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Multipoint",
-      ],
+      "Spatial Audio",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Multipoint",
     ],
+
     price: 25,
     shape: "Stem",
   },
@@ -692,30 +684,28 @@ const data = {
   },
   "JLab Epic Lab Edition": {
     features: [
-      [
-        "Spatial Audio",
-        "wear detection",
-        "Google Fast Pair",
-        "Dolby Atmos",
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Wireless charging",
-        "Multipoint",
-      ],
+      "Spatial Audio",
+      "wear detection",
+      "Google Fast Pair",
+      "Dolby Atmos",
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Wireless charging",
+      "Multipoint",
     ],
+
     price: 200,
     shape: "Bud",
   },
   "OnePlus Buds Pro 2 Lite": {
     features: [
-      [
-        "Spatial audio",
-        "Google Fast Pair",
-        "Active noise cancelling",
-        "Transparency mode",
-      ],
+      "Spatial audio",
+      "Google Fast Pair",
+      "Active noise cancelling",
+      "Transparency mode",
     ],
+
     price: 115,
     shape: "Stem",
   },
@@ -726,14 +716,13 @@ const data = {
   },
   "JBL Quantum TWS": {
     features: [
-      [
-        "simultaneous Bluetooth/2.4GHz connection",
-        "In-app EQ",
-        "Active noise cancelling",
-        "2.4 GHz adapter",
-        "Transparency mode",
-      ],
+      "simultaneous Bluetooth/2.4GHz connection",
+      "In-app EQ",
+      "Active noise cancelling",
+      "2.4 GHz adapter",
+      "Transparency mode",
     ],
+
     price: 130,
     shape: "Stem",
   },
@@ -759,28 +748,26 @@ const data = {
   },
   "1MORE Evo": {
     features: [
-      [
-        "Multipoint",
-        "Wireless charging",
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-      ],
+      "Multipoint",
+      "Wireless charging",
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
     ],
+
     price: 150,
     shape: "Bud",
   },
   "EarFun Air Pro 3": {
     features: [
-      [
-        "Multipoint",
-        "Transparency mode",
-        "Wireless charging",
-        "In-app EQ",
-        "Active noise cancelling",
-        "Ultra Low Latency Mode",
-      ],
+      "Multipoint",
+      "Transparency mode",
+      "Wireless charging",
+      "In-app EQ",
+      "Active noise cancelling",
+      "Ultra Low Latency Mode",
     ],
+
     price: 56,
     shape: "Stem",
   },
@@ -791,14 +778,13 @@ const data = {
   },
   "JBL Live Pro 2": {
     features: [
-      [
-        "Multipoint",
-        "In-app EQ",
-        "Transparency mode",
-        "Wireless charging",
-        "Active noise cancelling",
-      ],
+      "Multipoint",
+      "In-app EQ",
+      "Transparency mode",
+      "Wireless charging",
+      "Active noise cancelling",
     ],
+
     price: 100,
     shape: "Stem",
   },
@@ -809,16 +795,15 @@ const data = {
   },
   "Philips Fidelio T1": {
     features: [
-      [
-        "Multipoint",
-        "In-app EQ",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "Google Fast Pair",
-        "wear detection",
-      ],
+      "Multipoint",
+      "In-app EQ",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "Google Fast Pair",
+      "wear detection",
     ],
+
     price: 109,
     shape: "Bud",
   },
@@ -829,88 +814,82 @@ const data = {
   },
   "LG TONE Free T60": {
     features: [
-      [
-        "Multipoint",
-        "Dolby Atmos",
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "germicidal UV",
-      ],
+      "Multipoint",
+      "Dolby Atmos",
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "germicidal UV",
     ],
+
     price: 150,
     shape: "Stem",
   },
   "Jabra Elite 7 Active": {
     features: [
-      [
-        "Multipoint",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "Mono mode",
-        "Alexa Built-in",
-      ],
+      "Multipoint",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "Mono mode",
+      "Alexa Built-in",
     ],
+
     price: 180,
     shape: "Bud",
   },
   "Philips T8506": {
     features: [
-      [
-        "Multipoint",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "In-app EQ",
-        "Google Fast Pair",
-        "wear detection",
-      ],
+      "Multipoint",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "In-app EQ",
+      "Google Fast Pair",
+      "wear detection",
     ],
+
     price: 100,
     shape: "Bud",
   },
   "Jabra Elite 5": {
     features: [
-      [
-        "Multipoint",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "In-app EQ",
-        "Google Fast Pair",
-        "Microsoft Swift Pair",
-      ],
+      "Multipoint",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "In-app EQ",
+      "Google Fast Pair",
+      "Microsoft Swift Pair",
     ],
+
     price: 150,
     shape: "Bud",
   },
   "Huawei FreeBuds 5i": {
     features: [
-      [
-        "Multipoint",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Low-latency mode",
-        "Find my earbuds",
-        "In-ear detection",
-      ],
+      "Multipoint",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Low-latency mode",
+      "Find my earbuds",
+      "In-ear detection",
     ],
+
     price: 108,
     shape: "Stem",
   },
   "Jabra Elite 4": {
     features: [
-      [
-        "Multipoint",
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Google Fast Pair",
-        "Microsoft Swift Pair",
-        "mono mode",
-      ],
+      "Multipoint",
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Google Fast Pair",
+      "Microsoft Swift Pair",
+      "mono mode",
     ],
+
     price: 100,
     shape: "Bud",
   },
@@ -1026,85 +1005,83 @@ const data = {
   },
   "Huawei FreeBuds Pro 3": {
     features: [
-      [
-        "In-ear detection",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Multipoint",
-        "Wireless charging",
-        "In-app EQ",
-      ],
+      "In-ear detection",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Multipoint",
+      "Wireless charging",
+      "In-app EQ",
     ],
+
     price: 200,
     shape: "Stem",
   },
   "PistonBuds Pro Q30": {
     features: [
-      [
-        "in-ear detection",
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Multipoint",
-      ],
+      "in-ear detection",
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Multipoint",
     ],
+
     price: 50,
     shape: "Stem",
   },
   "Edifier NB2 Pro": {
     features: [
-      ["In-ear detection", "Active noise cancelling", "Transparency mode"],
+      "In-ear detection",
+      "Active noise cancelling",
+      "Transparency mode",
     ],
+
     price: 150,
     shape: "Stem",
   },
   "Nothing Ear (2)": {
     features: [
-      [
-        "In-ear detection",
-        "Google Fast Pair",
-        "Microsoft Swift Pair",
-        "Find My Earbuds",
-        "Transparency mode",
-        "Active noise cancelling",
-        "In-app EQ",
-        "Wireless charging",
-        "Multipoint",
-      ],
+      "In-ear detection",
+      "Google Fast Pair",
+      "Microsoft Swift Pair",
+      "Find my earbuds",
+      "Transparency mode",
+      "Active noise cancelling",
+      "In-app EQ",
+      "Wireless charging",
+      "Multipoint",
     ],
+
     price: 149,
     shape: "Stem",
   },
   "Jabra Elite 10": {
     features: [
-      [
-        "In-ear detection",
-        "Fast Pair",
-        "Swift Pair",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Dolby Atmos",
-        "Wireless charging",
-        "Multipoint",
-      ],
+      "In-ear detection",
+      "Fast Pair",
+      "Swift Pair",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Dolby Atmos",
+      "Wireless charging",
+      "Multipoint",
     ],
+
     price: 250,
     shape: "Bud",
   },
   "Jabra Elite 8 Active": {
     features: [
-      [
-        "In-ear detection",
-        "Fast Pair",
-        "Swift Pair",
-        "MIL-STD-810h",
-        "Dolby Atmos",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Multipoint",
-        "In-app EQ",
-      ],
+      "In-ear detection",
+      "Fast Pair",
+      "Swift Pair",
+      "MIL-STD-810h",
+      "Dolby Atmos",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Multipoint",
+      "In-app EQ",
     ],
+
     price: 200,
     shape: "Bud",
   },
@@ -1129,59 +1106,54 @@ const data = {
     shape: "Bud",
   },
   "Jabra Elite 3": {
-    features: [
-      ["In-app EQ", "Transparency mode", "Alexa built-in", "mono mode"],
-    ],
+    features: ["In-app EQ", "Transparency mode", "Alexa built-in", "mono mode"],
+
     price: 80,
     shape: "Bud",
   },
   "Jabra Elite 85t": {
     features: [
-      [
-        "In-app EQ",
-        "Transparency mode",
-        "Active noise cancelling",
-        "Multipoint",
-        "Wireless charging",
-      ],
+      "In-app EQ",
+      "Transparency mode",
+      "Active noise cancelling",
+      "Multipoint",
+      "Wireless charging",
     ],
+
     price: 230,
     shape: "Bud",
   },
   "Klipsch T5 II True Wireless ANC": {
     features: [
-      [
-        "In-app EQ",
-        "Transparency mode",
-        "Active noise cancelling",
-        "Metal case",
-        "Dirac HD",
-      ],
+      "In-app EQ",
+      "Transparency mode",
+      "Active noise cancelling",
+      "Metal case",
+      "Dirac HD",
     ],
+
     price: 200,
     shape: "Bud",
   },
   "Sony WF-1000XM3": {
     features: [
-      [
-        "In-app EQ",
-        "Transparency mode",
-        "Active noise cancelling",
-        "Dolby Atmos",
-      ],
+      "In-app EQ",
+      "Transparency mode",
+      "Active noise cancelling",
+      "Dolby Atmos",
     ],
+
     price: 200,
     shape: "Bud",
   },
   "1MORE ComfoBuds Pro": {
     features: [
-      [
-        "In-app EQ",
-        "Transparency mode",
-        "Active noise cancelling",
-        "Auto play-pause",
-      ],
+      "In-app EQ",
+      "Transparency mode",
+      "Active noise cancelling",
+      "Auto play-pause",
     ],
+
     price: 55,
     shape: "Stem",
   },
@@ -1197,57 +1169,53 @@ const data = {
   },
   "JLab Air Sport 3rd gen": {
     features: [
-      [
-        "In-app EQ",
-        "Tile tracking",
-        "Multipoint",
-        "Transparency mode",
-        "Mono mode",
-        "Google Fast Pair",
-      ],
+      "In-app EQ",
+      "Tile tracking",
+      "Multipoint",
+      "Transparency mode",
+      "Mono mode",
+      "Google Fast Pair",
     ],
+
     price: 70,
     shape: "Hook",
   },
   "JLab JBuds Air Pro": {
     features: [
-      [
-        "In-app EQ",
-        "Tile tracking",
-        "Multipoint",
-        "Transparency mode",
-        "Mono mode",
-      ],
+      "In-app EQ",
+      "Tile tracking",
+      "Multipoint",
+      "Transparency mode",
+      "Mono mode",
     ],
+
     price: 60,
     shape: "Bud",
   },
   "JLab Epic Air Sport ANC 2nd gen": {
     features: [
-      [
-        "In-app EQ",
-        "Tile tracking",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "Low-latency mode",
-        "wear detection",
-        "Google Fast Pair",
-      ],
+      "In-app EQ",
+      "Tile tracking",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "Low-latency mode",
+      "wear detection",
+      "Google Fast Pair",
     ],
+
     price: 80,
     shape: "Hook",
   },
   "Sony WF-1000XM4": {
     features: [
-      [
-        "In-app EQ",
-        "Multipoint",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-      ],
+      "In-app EQ",
+      "Multipoint",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
     ],
+
     price: 280,
     shape: "Bud",
   },
@@ -1288,65 +1256,60 @@ const data = {
   },
   "LG TONE Free FP8": {
     features: [
-      [
-        "In-app EQ",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "UV disinfecting case",
-        "Fast Pair",
-        "Swift Pair",
-      ],
+      "In-app EQ",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "UV disinfecting case",
+      "Fast Pair",
+      "Swift Pair",
     ],
+
     price: 180,
     shape: "Stem",
   },
   "Beyerdynamic Free Byrd": {
     features: [
-      [
-        "In-app EQ",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-      ],
+      "In-app EQ",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
     ],
+
     price: 230,
     shape: "Bud",
   },
   "FIIL CC Pro2": {
     features: [
-      [
-        "In-app EQ",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Sleep mode",
-        "wear detection",
-      ],
+      "In-app EQ",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Sleep mode",
+      "wear detection",
     ],
+
     price: 100,
     shape: "Stem",
   },
   "Surface Earbuds": {
     features: [
-      [
-        "In-app EQ",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Mono mode",
-      ],
+      "In-app EQ",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Mono mode",
     ],
+
     price: 200,
     shape: "Bud",
   },
   "Soundcore Life A3i": {
     features: [
-      [
-        "In-app EQ",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Mono mode",
-      ],
+      "In-app EQ",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Mono mode",
     ],
+
     price: 60,
     shape: "Bud",
   },
@@ -1387,71 +1350,66 @@ const data = {
   },
   "Bose QuietComfort Ultra Earbuds": {
     features: [
-      [
-        "Google Fast Pair",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "In-app EQ",
-        "Dolby Atmos",
-      ],
+      "Google Fast Pair",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "In-app EQ",
+      "Dolby Atmos",
     ],
+
     price: 300,
     shape: "Stem",
   },
   "Soundcore Liberty 4 NC": {
     features: [
-      [
-        "Google Fast Pair",
-        "wear detection",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "In-app EQ",
-        "Multipoint",
-      ],
+      "Google Fast Pair",
+      "wear detection",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "In-app EQ",
+      "Multipoint",
     ],
+
     price: 100,
     shape: "Stem",
   },
   "realme Buds Air 5 Pro": {
     features: [
-      [
-        "Google Fast Pair",
-        "spatial audio",
-        "Active noise cancelling",
-        "Transparency mode",
-      ],
+      "Google Fast Pair",
+      "spatial audio",
+      "Active noise cancelling",
+      "Transparency mode",
     ],
+
     price: 60,
     shape: "Stem",
   },
   "AirPods Pro (2nd generation, Lightning)": {
     features: [
-      [
-        "Ear detection",
-        "Wireless charging",
-        "Transparency mode",
-        "Active noise cancelling",
-        "Dolby Atmos",
-        "In-app EQ",
-      ],
+      "Ear detection",
+      "Wireless charging",
+      "Transparency mode",
+      "Active noise cancelling",
+      "Dolby Atmos",
+      "In-app EQ",
     ],
+
     price: 250,
     shape: "Stem",
   },
   "AirPods Pro (2nd generation, USB-C)": {
     features: [
-      [
-        "Ear detection",
-        "Lossless Audio with Vision Pro",
-        "Wireless charging",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Dolby Atmos",
-        "In-app EQ",
-      ],
+      "Ear detection",
+      "Lossless Audio with Vision Pro",
+      "Wireless charging",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Dolby Atmos",
+      "In-app EQ",
     ],
+
     price: 250,
     shape: "Stem",
   },
@@ -1462,16 +1420,15 @@ const data = {
   },
   "Denon PerL Pro": {
     features: [
-      [
-        "Dirac Virtuo",
-        "wear detection",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Dolby Atmos",
-        "In-app EQ",
-        "Multipoint",
-      ],
+      "Dirac Virtuo",
+      "wear detection",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Dolby Atmos",
+      "In-app EQ",
+      "Multipoint",
     ],
+
     price: 349,
     shape: "Bud",
   },
@@ -1487,16 +1444,15 @@ const data = {
   },
   "Razer Hammerhead Hyperspeed": {
     features: [
-      [
-        "Chroma RGB",
-        "simultaneous USB/bluetooth connection",
-        "Active noise cancelling",
-        "2.4 GHz adapter",
-        "Wireless charging",
-        "In-app EQ",
-        "Transparency mode",
-      ],
+      "Chroma RGB",
+      "simultaneous USB/bluetooth connection",
+      "Active noise cancelling",
+      "2.4 GHz adapter",
+      "Wireless charging",
+      "In-app EQ",
+      "Transparency mode",
     ],
+
     price: 150,
     shape: "Stem",
   },
@@ -1507,178 +1463,172 @@ const data = {
   },
   "Philips Fidelio T2": {
     features: [
-      [
-        "Auracast",
-        "wear detection",
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Multipoint",
-        "Wireless charging",
-      ],
+      "Auracast",
+      "wear detection",
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Multipoint",
+      "Wireless charging",
     ],
+
     price: 279,
     shape: "Bud",
   },
   "Sennheiser Momentum True Wireless 4": {
     features: [
-      [
-        "Auracast",
-        "LE Audio",
-        "Active noise cancelling",
-        "In-app EQ",
-        "Transparency mode",
-        "Wireless charging",
-        "Multipoint",
-      ],
+      "Auracast",
+      "LE Audio",
+      "Active noise cancelling",
+      "In-app EQ",
+      "Transparency mode",
+      "Wireless charging",
+      "Multipoint",
     ],
+
     price: 300,
     shape: "Bud",
   },
   "Beats Studio Buds +": {
     features: [
-      [
-        "Apple Find My",
-        "Google Fast Pair",
-        "Active noise cancelling",
-        "Transparency mode",
-        "Dolby Atmos",
-        "Multipoint",
-      ],
+      "Apple Find My",
+      "Google Fast Pair",
+      "Active noise cancelling",
+      "Transparency mode",
+      "Dolby Atmos",
+      "Multipoint",
     ],
+
     price: 170,
     shape: "Bud",
   },
   "Soundcore Liberty 4": {
     features: [
-      [
-        "Active noise cancelling",
-        "Wireless charging",
-        "Transparency mode",
-        "Multipoint",
-        "In-app EQ",
-        "Heart rate monitor",
-      ],
+      "Active noise cancelling",
+      "Wireless charging",
+      "Transparency mode",
+      "Multipoint",
+      "In-app EQ",
+      "Heart rate monitor",
     ],
+
     price: 150,
     shape: "Stem",
   },
   "OnePlus Buds Pro 2": {
     features: [
-      [
-        "Active noise cancelling",
-        "Wireless charging",
-        "Transparency mode",
-        "In-app EQ",
-        "Multipoint",
-      ],
+      "Active noise cancelling",
+      "Wireless charging",
+      "Transparency mode",
+      "In-app EQ",
+      "Multipoint",
     ],
+
     price: 130,
     shape: "Stem",
   },
   "Creative Outlier Air V3": {
     features: [
-      [
-        "Active noise cancelling",
-        "Wireless charging",
-        "Transparency mode",
-        "In-app EQ",
-        "mono mode",
-      ],
+      "Active noise cancelling",
+      "Wireless charging",
+      "Transparency mode",
+      "In-app EQ",
+      "mono mode",
     ],
+
     price: 42,
     shape: "Bud",
   },
   "FIIL CC Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "Wireless charging",
-        "Transparency mode",
-        "In-app EQ",
-      ],
+      "Active noise cancelling",
+      "Wireless charging",
+      "Transparency mode",
+      "In-app EQ",
     ],
+
     price: 53,
     shape: "Stem",
   },
   "Galaxy Buds2": {
     features: [
-      [
-        "Active noise cancelling",
-        "Wireless charging",
-        "Transparency mode",
-        "In-app EQ",
-      ],
+      "Active noise cancelling",
+      "Wireless charging",
+      "Transparency mode",
+      "In-app EQ",
     ],
+
     price: 90,
     shape: "Bud",
   },
   "Bowers & Wilkins Pi7 S2": {
     features: [
-      [
-        "Active noise cancelling",
-        "Wireless charging",
-        "Transparency mode",
-        "Audio retransmission",
-        "wear detection",
-      ],
+      "Active noise cancelling",
+      "Wireless charging",
+      "Transparency mode",
+      "Audio retransmission",
+      "wear detection",
     ],
+
     price: 400,
     shape: "Bud",
   },
   "1MORE ComfoBuds Mini": {
     features: [
-      ["Active noise cancelling", "Wireless charging", "Transparency mode"],
+      "Active noise cancelling",
+      "Wireless charging",
+      "Transparency mode",
     ],
+
     price: 80,
     shape: "Bud",
   },
   "1MORE Aero": {
     features: [
-      [
-        "Active noise cancelling",
-        "Wireless charging",
-        "Multipoint",
-        "Transparency mode",
-        "In-app EQ",
-        "Spatial Audio",
-      ],
+      "Active noise cancelling",
+      "Wireless charging",
+      "Multipoint",
+      "Transparency mode",
+      "In-app EQ",
+      "Spatial Audio",
     ],
+
     price: 110,
     shape: "Stem",
   },
   "1MORE ColorBuds": {
     features: [
-      ["Active noise cancelling", "Wireless charging", "In-ear detection"],
+      "Active noise cancelling",
+      "Wireless charging",
+      "In-ear detection",
     ],
+
     price: 60,
     shape: "Bud",
   },
   "Nothing Ear (1)": {
     features: [
-      [
-        "Active noise cancelling",
-        "Wireless charging",
-        "In-app EQ",
-        "Transparency mode",
-        "In-ear detection",
-      ],
+      "Active noise cancelling",
+      "Wireless charging",
+      "In-app EQ",
+      "Transparency mode",
+      "In-ear detection",
     ],
+
     price: 100,
     shape: "Stem",
   },
   "Beoplay EX": {
     features: [
-      [
-        "Active noise cancelling",
-        "Wireless charging",
-        "In-app EQ",
-        "Multipoint",
-        "Transparency mode",
-        "Google Fast Pair",
-        "Microsoft Swift Pair",
-      ],
+      "Active noise cancelling",
+      "Wireless charging",
+      "In-app EQ",
+      "Multipoint",
+      "Transparency mode",
+      "Google Fast Pair",
+      "Microsoft Swift Pair",
     ],
+
     price: 400,
     shape: "Stem",
   },
@@ -1689,137 +1639,137 @@ const data = {
   },
   "Xiaomi Buds 3T Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "Multipoint",
-        "Spatial audio",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "Multipoint",
+      "Spatial audio",
     ],
+
     price: 150,
     shape: "Stem",
   },
   "Master & Dynamic MW08 Sport": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "Multipoint",
-        "IPX4 case",
-        "USB-A bluetooth adapter",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "Multipoint",
+      "IPX4 case",
+      "USB-A bluetooth adapter",
     ],
+
     price: 349,
     shape: "Bud",
   },
   "Xiaomi Buds 3": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "Multipoint",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "Multipoint",
     ],
+
     price: 93,
     shape: "Stem",
   },
   "Xiaomi Buds 3 Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "Multipoint",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "Multipoint",
     ],
+
     price: 93,
     shape: "Stem",
   },
   "Belkin SoundForm Flow": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "Mono mode",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "Mono mode",
     ],
+
     price: 90,
     shape: "Stem",
   },
   "EarFun Air S": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "In-app EQ",
-        "Multipoint",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "In-app EQ",
+      "Multipoint",
     ],
+
     price: 70,
     shape: "Stem",
   },
   "Echo Buds (2nd Gen)": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Wireless charging",
-        "In-app EQ",
-        "Alexa built-in",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
+      "In-app EQ",
+      "Alexa built-in",
     ],
+
     price: 100,
     shape: "Bud",
   },
   "Baseus Bowie M2 Plus": {
     features: [
-      ["Active noise cancelling", "Transparency mode", "Wireless charging"],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
     ],
+
     price: 40,
     shape: "Stem",
   },
   "Earfun Air Pro 2": {
     features: [
-      ["Active noise cancelling", "Transparency mode", "Wireless charging"],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
     ],
+
     price: 60,
     shape: "Stem",
   },
   "Earfun Free Pro 2": {
     features: [
-      ["Active noise cancelling", "Transparency mode", "Wireless charging"],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Wireless charging",
     ],
+
     price: 60,
     shape: "Bud",
   },
   "Beoplay EQ": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Multipoint",
-        "Wireless charging",
-        "In-app EQ",
-        "In-ear detection",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Multipoint",
+      "Wireless charging",
+      "In-app EQ",
+      "In-ear detection",
     ],
+
     price: 300,
     shape: "Bud",
   },
   "Redmi Buds 4 Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Multipoint",
-        "In-ear detection",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Multipoint",
+      "In-ear detection",
     ],
+
     price: 100,
     shape: "Stem",
   },
@@ -1830,96 +1780,92 @@ const data = {
   },
   "EarFun Air Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Mono mode",
-        "in-ear detection",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Mono mode",
+      "in-ear detection",
     ],
+
     price: 80,
     shape: "Stem",
   },
   "Redmi Buds 4": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Low-latency mode",
-        "in-ear detection",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Low-latency mode",
+      "in-ear detection",
     ],
+
     price: 29,
     shape: "Bud",
   },
   "SOUNDPEATS Mini Pro HS": {
     features: [
-      ["Active noise cancelling", "Transparency mode", "Low-latency mode"],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Low-latency mode",
     ],
+
     price: 60,
     shape: "Bud",
   },
   "Logitech Zone True Wireless": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Wireless charging",
-        "Multipoint",
-        "USB-A Bluetooth receiver",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Wireless charging",
+      "Multipoint",
+      "USB-A Bluetooth receiver",
     ],
+
     price: 300,
     shape: "Bud",
   },
   "Soundcore Space A40": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Wireless charging",
-        "Multipoint",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Wireless charging",
+      "Multipoint",
     ],
+
     price: 100,
     shape: "Bud",
   },
   "Lypertek PurePlay Z5": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Wireless charging",
-        "Find my earbuds",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Wireless charging",
+      "Find my earbuds",
     ],
+
     price: 99,
     shape: "Stem",
   },
   "Sony LinkBuds S": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Multipoint",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Multipoint",
     ],
+
     price: 200,
     shape: "Bud",
   },
   "Audio-Technica ATH-TWX9": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "In-app EQ",
-        "Multipoint",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "In-app EQ",
+      "Multipoint",
     ],
+
     price: 300,
     shape: "Stem",
   },
@@ -1950,53 +1896,56 @@ const data = {
   },
   "TCL MOVEAUDIO Neo": {
     features: [
-      ["Active noise cancelling", "Transparency mode", "Google Fast Pair"],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Google Fast Pair",
     ],
+
     price: 50,
     shape: "Stem",
   },
   "Galaxy Buds Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Dolby Atmos",
-        "Wireless charging",
-        "Automatic transparency",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Dolby Atmos",
+      "Wireless charging",
+      "Automatic transparency",
     ],
+
     price: 180,
     shape: "Bud",
   },
   "Beats Fit Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Dolby Atmos",
-        "In-ear detection",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Dolby Atmos",
+      "In-ear detection",
     ],
+
     price: 200,
     shape: "Bud",
   },
   "OnePlus Buds Z2": {
     features: [
-      [
-        "Active noise cancelling",
-        "Transparency mode",
-        "Dolby Atmos",
-        "In-app EQ",
-        "Mono mode (via app)",
-      ],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Dolby Atmos",
+      "In-app EQ",
+      "Mono mode (via app)",
     ],
+
     price: 80,
     shape: "Stem",
   },
   "SOUNDPEATS T3": {
     features: [
-      ["Active noise cancelling", "Transparency mode", "Battery indicator"],
+      "Active noise cancelling",
+      "Transparency mode",
+      "Battery indicator",
     ],
+
     price: 56,
     shape: "Stem",
   },
@@ -2057,27 +2006,25 @@ const data = {
   },
   "Jabra Elite 7 Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "Multipoint",
-        "Transparency mode",
-        "Wireless charging",
-        "In-app EQ",
-        "Alexa Built-in",
-      ],
+      "Active noise cancelling",
+      "Multipoint",
+      "Transparency mode",
+      "Wireless charging",
+      "In-app EQ",
+      "Alexa Built-in",
     ],
+
     price: 200,
     shape: "Bud",
   },
   "vivo TWS 3 Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "Multipoint",
-        "Transparency mode",
-        "Body temperature sensor",
-      ],
+      "Active noise cancelling",
+      "Multipoint",
+      "Transparency mode",
+      "Body temperature sensor",
     ],
+
     price: 140,
     shape: "Stem",
   },
@@ -2088,52 +2035,48 @@ const data = {
   },
   "JLab Epic Air Sport ANC": {
     features: [
-      [
-        "Active noise cancelling",
-        "In-app EQ",
-        "Transparency mode",
-        "Tile tracking",
-        "Wireless charging",
-        "Wear detection",
-      ],
+      "Active noise cancelling",
+      "In-app EQ",
+      "Transparency mode",
+      "Tile tracking",
+      "Wireless charging",
+      "Wear detection",
     ],
+
     price: 80,
     shape: "Hook",
   },
   "Razer Hammerhead True Wireless Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "In-app EQ",
-        "Transparency mode",
-        "THX Certified",
-        "Low-latency mode",
-      ],
+      "Active noise cancelling",
+      "In-app EQ",
+      "Transparency mode",
+      "THX Certified",
+      "Low-latency mode",
     ],
+
     price: 100,
     shape: "Stem",
   },
   "Beats Studio Buds": {
     features: [
-      [
-        "Active noise cancelling",
-        "In-app EQ",
-        "Transparency mode",
-        "Dolby Atmos",
-      ],
+      "Active noise cancelling",
+      "In-app EQ",
+      "Transparency mode",
+      "Dolby Atmos",
     ],
+
     price: 100,
     shape: "Bud",
   },
   "Razer Hammerhead True Wireless (2021)": {
     features: [
-      [
-        "Active noise cancelling",
-        "In-app EQ",
-        "Transparency mode",
-        "Chroma RGB",
-      ],
+      "Active noise cancelling",
+      "In-app EQ",
+      "Transparency mode",
+      "Chroma RGB",
     ],
+
     price: 90,
     shape: "Stem",
   },
@@ -2144,14 +2087,13 @@ const data = {
   },
   "Pixel Buds Pro": {
     features: [
-      [
-        "Active noise cancelling",
-        "In-app EQ",
-        "Multipoint",
-        "Transparency mode",
-        "Wireless charging",
-      ],
+      "Active noise cancelling",
+      "In-app EQ",
+      "Multipoint",
+      "Transparency mode",
+      "Wireless charging",
     ],
+
     price: 200,
     shape: "Bud",
   },
@@ -2167,14 +2109,13 @@ const data = {
   },
   "AirPods (3rd generation)": {
     features: [
-      [
-        "Wireless charging",
-        "In-app EQ",
-        "Spatial Audio",
-        "wear detection",
-        "Magsafe",
-      ],
+      "Wireless charging",
+      "In-app EQ",
+      "Spatial Audio",
+      "wear detection",
+      "Magsafe",
     ],
+
     price: 180,
     shape: "Stem",
   },
@@ -2284,9 +2225,8 @@ const data = {
     shape: "Bud",
   },
   "Xiaomi Buds 4": {
-    features: [
-      ["Active noise cancelling", "Transparency mode", "Spatial audio"],
-    ],
+    features: ["Active noise cancelling", "Transparency mode", "Spatial audio"],
+
     price: 102,
     shape: "Stem",
   },
@@ -2297,4 +2237,4 @@ const data = {
   },
 };
 
-export default data;
+export default knowledgeBase;
