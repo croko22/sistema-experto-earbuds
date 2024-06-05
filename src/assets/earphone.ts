@@ -12,7 +12,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Wear detection",
     ],
-
     price: 180,
     shape: "Bud",
   },
@@ -26,7 +25,6 @@ const knowledgeBase = {
       "Fast Pair",
       "24-bit",
     ],
-
     price: 170,
     shape: "Stem",
   },
@@ -37,7 +35,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Active noise cancelling",
     ],
-
     price: 60,
     shape: "Stem",
   },
@@ -56,7 +53,6 @@ const knowledgeBase = {
       "Dolby Atmos",
       "Dolby Head Tracking",
     ],
-
     price: 230,
     shape: "Stem",
   },
@@ -68,7 +64,6 @@ const knowledgeBase = {
       "audio retransmission",
       "in-ear detection",
     ],
-
     price: 350,
     shape: "Bud",
   },
@@ -78,7 +73,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Active noise cancelling",
     ],
-
     price: 300,
     shape: "Bud",
   },
@@ -88,7 +82,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Active noise cancelling",
     ],
-
     price: 50,
     shape: "Bud",
   },
@@ -99,7 +92,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Active noise cancelling",
     ],
-
     price: 50,
     shape: "Stem",
   },
@@ -116,7 +108,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "spatial Audio",
     ],
-
     price: 330,
     shape: "Bud",
   },
@@ -128,7 +119,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Transparency mode",
     ],
-
     price: 100,
     shape: "Bud",
   },
@@ -159,7 +149,6 @@ const knowledgeBase = {
       "Battery percentage meter",
       "Mono mode",
     ],
-
     price: 40,
     shape: "Bud",
   },
@@ -172,7 +161,6 @@ const knowledgeBase = {
       "Mono mode",
       "in-ear detection",
     ],
-
     price: 200,
     shape: "Stem",
   },
@@ -194,7 +182,6 @@ const knowledgeBase = {
       "THX Certified",
       "wear detection",
     ],
-
     price: 100,
     shape: "Bud",
   },
@@ -206,7 +193,6 @@ const knowledgeBase = {
       "Multipoint",
       "Warp charge",
     ],
-
     price: 100,
     shape: "Stem",
   },
@@ -218,7 +204,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Mono mode",
     ],
-
     price: 180,
     shape: "Bud",
   },
@@ -230,7 +215,6 @@ const knowledgeBase = {
       "In-app EQ",
       "MIL-STD-810G",
     ],
-
     price: 100,
     shape: "Bud",
   },
@@ -240,18 +224,7 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Transparency mode",
     ],
-
     price: 150,
-    shape: "Bud",
-  },
-  "TOZO T9 (2022)": {
-    features: ["Wireless charging"],
-    price: 25,
-    shape: "Stem",
-  },
-  "Soundcore Sleep A10": {
-    features: ["White noise"],
-    price: 180,
     shape: "Bud",
   },
   "Montblanc MTB 03": {
@@ -262,7 +235,6 @@ const knowledgeBase = {
       "Transparency mode",
       "In-app EQ",
     ],
-
     price: 405,
     shape: "Bud",
   },
@@ -275,7 +247,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Transparency mode",
     ],
-
     price: 162,
     shape: "Bud",
   },
@@ -286,7 +257,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Active noise cancelling",
     ],
-
     price: 75,
     shape: "Stem",
   },
@@ -299,7 +269,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Apple Find My",
     ],
-
     price: 145,
     shape: "Bud",
   },
@@ -309,7 +278,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Active noise cancelling",
     ],
-
     price: 40,
     shape: "Bud",
   },
@@ -325,7 +293,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Active noise cancelling",
     ],
-
     price: 100,
     shape: "Bud",
   },
@@ -337,7 +304,6 @@ const knowledgeBase = {
       "Wireless charging",
       "In-ear detection",
     ],
-
     price: 60,
     shape: "Bud",
   },
@@ -349,7 +315,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Find my earbuds",
     ],
-
     price: 120,
     shape: "Stem",
   },
@@ -371,7 +336,6 @@ const knowledgeBase = {
       "Multipoint",
       "Active noise cancelling",
     ],
-
     price: 200,
     shape: "Bud",
   },
@@ -382,7 +346,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Mono mode",
     ],
-
     price: 120,
     shape: "Bud",
   },
@@ -393,7 +356,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Find my earbuds",
     ],
-
     price: 99,
     shape: "Bud",
   },
@@ -409,7 +371,6 @@ const knowledgeBase = {
       "Multipoint",
       "Find my earbuds",
     ],
-
     price: 150,
     shape: "Bud",
   },
@@ -420,7 +381,6 @@ const knowledgeBase = {
       "Mono mode",
       "Google Fast Pair",
     ],
-
     price: 61,
     shape: "Stem",
   },
@@ -431,7 +391,6 @@ const knowledgeBase = {
       "Mono mode",
       "Battery level indicator",
     ],
-
     price: 48,
     shape: "Bud",
   },
@@ -442,7 +401,6 @@ const knowledgeBase = {
       "In-ear detection",
       "low-latency mode",
     ],
-
     price: 150,
     shape: "Stem",
   },
@@ -461,7 +419,6 @@ const knowledgeBase = {
       "Microsoft Swift Pair",
       "Google Fast Pair",
     ],
-
     price: 120,
     shape: "Bud",
   },
@@ -472,7 +429,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Mono mode",
     ],
-
     price: 50,
     shape: "Stem",
   },
@@ -508,7 +464,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Wear detection (auto play/pause)",
     ],
-
     price: 200,
     shape: "Hook",
   },
@@ -520,7 +475,6 @@ const knowledgeBase = {
       "Multipoint",
       "Spatial audio",
     ],
-
     price: 139,
     shape: "Stem",
   },
@@ -532,7 +486,6 @@ const knowledgeBase = {
       "Mono mode",
       "In-ear detection",
     ],
-
     price: 60,
     shape: "Bud",
   },
@@ -545,7 +498,6 @@ const knowledgeBase = {
       "Multipoint",
       "Mono mode",
     ],
-
     price: 200,
     shape: "Stem",
   },
@@ -555,7 +507,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Wear Detection",
     ],
-
     price: 61,
     shape: "Stem",
   },
@@ -567,7 +518,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Find my earbuds",
     ],
-
     price: 230,
     shape: "Bud",
   },
@@ -578,7 +528,6 @@ const knowledgeBase = {
       "Multipoint",
       "In-app EQ",
     ],
-
     price: 199,
     shape: "Stem",
   },
@@ -589,7 +538,6 @@ const knowledgeBase = {
       "Mono mode",
       "wear detection",
     ],
-
     price: 60,
     shape: "Bud",
   },
@@ -600,7 +548,6 @@ const knowledgeBase = {
       "In-ear detection",
       "mono mode",
     ],
-
     price: 109,
     shape: "Stem",
   },
@@ -611,7 +558,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Wireless charging",
     ],
-
     price: 90,
     shape: "Stem",
   },
@@ -622,7 +568,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Dolby Atmos",
     ],
-
     price: 59,
     shape: "Stem",
   },
@@ -647,7 +592,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Customizable controls",
     ],
-
     price: 200,
     shape: "Bud",
   },
@@ -673,7 +617,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Multipoint",
     ],
-
     price: 25,
     shape: "Stem",
   },
@@ -694,7 +637,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Multipoint",
     ],
-
     price: 200,
     shape: "Bud",
   },
@@ -705,14 +647,8 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Transparency mode",
     ],
-
     price: 115,
     shape: "Stem",
-  },
-  "Soundcore Sleep A20": {
-    features: ["Sleep tracking"],
-    price: 150,
-    shape: "Bud",
   },
   "JBL Quantum TWS": {
     features: [
@@ -722,17 +658,11 @@ const knowledgeBase = {
       "2.4 GHz adapter",
       "Transparency mode",
     ],
-
     price: 130,
     shape: "Stem",
   },
   "Baseus Bowie MA10 TWS": {
     features: ["Quick Charge", "Active noise cancelling", "Multipoint"],
-    price: 40,
-    shape: "Bud",
-  },
-  "Tribit FlyBuds 3": {
-    features: ["Power bank"],
     price: 40,
     shape: "Bud",
   },
@@ -754,7 +684,6 @@ const knowledgeBase = {
       "Transparency mode",
       "In-app EQ",
     ],
-
     price: 150,
     shape: "Bud",
   },
@@ -767,7 +696,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Ultra Low Latency Mode",
     ],
-
     price: 56,
     shape: "Stem",
   },
@@ -784,7 +712,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Active noise cancelling",
     ],
-
     price: 100,
     shape: "Stem",
   },
@@ -803,7 +730,6 @@ const knowledgeBase = {
       "Google Fast Pair",
       "wear detection",
     ],
-
     price: 109,
     shape: "Bud",
   },
@@ -821,7 +747,6 @@ const knowledgeBase = {
       "In-app EQ",
       "germicidal UV",
     ],
-
     price: 150,
     shape: "Stem",
   },
@@ -834,7 +759,6 @@ const knowledgeBase = {
       "Mono mode",
       "Alexa Built-in",
     ],
-
     price: 180,
     shape: "Bud",
   },
@@ -848,7 +772,6 @@ const knowledgeBase = {
       "Google Fast Pair",
       "wear detection",
     ],
-
     price: 100,
     shape: "Bud",
   },
@@ -862,7 +785,6 @@ const knowledgeBase = {
       "Google Fast Pair",
       "Microsoft Swift Pair",
     ],
-
     price: 150,
     shape: "Bud",
   },
@@ -875,7 +797,6 @@ const knowledgeBase = {
       "Find my earbuds",
       "In-ear detection",
     ],
-
     price: 108,
     shape: "Stem",
   },
@@ -889,7 +810,6 @@ const knowledgeBase = {
       "Microsoft Swift Pair",
       "mono mode",
     ],
-
     price: 100,
     shape: "Bud",
   },
@@ -903,105 +823,10 @@ const knowledgeBase = {
     price: 60,
     shape: "Bud",
   },
-  "JLab GO Air POP": {
-    features: ["Mono mode", ""],
-    price: 25,
-    shape: "Bud",
-  },
-  "QCY T13": {
-    features: ["Mono mode"],
-    price: 40,
-    shape: "Stem",
-  },
-  "JBL Vibe 200TWS": {
-    features: ["Mono mode"],
-    price: 25,
-    shape: "Stem",
-  },
-  "Tribit MoveBuds H1": {
-    features: ["Mono mode"],
-    price: 90,
-    shape: "Hook",
-  },
-  "Mpow Flame Lite": {
-    features: ["Mono mode"],
-    price: 50,
-    shape: "Hook",
-  },
-  "JBL Endurance Peak II": {
-    features: ["Mono mode"],
-    price: 70,
-    shape: "Hook",
-  },
-  "Edifier TWS1 Pro": {
-    features: ["Mono mode"],
-    price: 45,
-    shape: "Bud",
-  },
-  "OPPO Enco W11": {
-    features: ["Mono mode"],
-    price: 36,
-    shape: "Bud",
-  },
-  "Mpow M30": {
-    features: ["Mono mode"],
-    price: 43,
-    shape: "Bud",
-  },
-  "Taotronics SoundLiberty 97": {
-    features: ["Mono mode"],
-    price: 40,
-    shape: "Bud",
-  },
-  "KZ S2": {
-    features: ["Mono mode"],
-    price: 40,
-    shape: "Bud",
-  },
-  "Soundcore Life Dot 2": {
-    features: ["Mono mode"],
-    price: 50,
-    shape: "Bud",
-  },
-  "Soundcore Life P2": {
-    features: ["Mono mode"],
-    price: 46,
-    shape: "Stem",
-  },
-  "SOUNDPEATS TrueFree 2": {
-    features: ["Mono mode"],
-    price: 50,
-    shape: "Bud",
-  },
-  "JBL Vibe 100TWS": {
-    features: ["mono mode"],
-    price: 25,
-    shape: "Bud",
-  },
-  "Mpow MDots": {
-    features: ["Mono mode"],
-    price: 34,
-    shape: "Bud",
-  },
   "FIIL T1 XS": {
     features: ["Low-latency mode", "In-app EQ", "Transparency mode"],
     price: 45,
     shape: "Bud",
-  },
-  "OPPO Enco Buds": {
-    features: ["Low-latency mode"],
-    price: 24,
-    shape: "Bud",
-  },
-  "SOUNDPEATS Sonic": {
-    features: ["Low-latency mode"],
-    price: 50,
-    shape: "Bud",
-  },
-  "SOUNDPEATS H2": {
-    features: ["Low-latency game mode"],
-    price: 70,
-    shape: "Stem",
   },
   "Huawei FreeBuds Pro 3": {
     features: [
@@ -1012,7 +837,6 @@ const knowledgeBase = {
       "Wireless charging",
       "In-app EQ",
     ],
-
     price: 200,
     shape: "Stem",
   },
@@ -1024,7 +848,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Multipoint",
     ],
-
     price: 50,
     shape: "Stem",
   },
@@ -1034,7 +857,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Transparency mode",
     ],
-
     price: 150,
     shape: "Stem",
   },
@@ -1050,7 +872,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Multipoint",
     ],
-
     price: 149,
     shape: "Stem",
   },
@@ -1065,7 +886,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Multipoint",
     ],
-
     price: 250,
     shape: "Bud",
   },
@@ -1081,13 +901,7 @@ const knowledgeBase = {
       "Multipoint",
       "In-app EQ",
     ],
-
     price: 200,
-    shape: "Bud",
-  },
-  "Redmi Earbuds 3 Pro": {
-    features: ["In-ear detection"],
-    price: 37,
     shape: "Bud",
   },
   "EarFun Free 2S": {
@@ -1107,7 +921,6 @@ const knowledgeBase = {
   },
   "Jabra Elite 3": {
     features: ["In-app EQ", "Transparency mode", "Alexa built-in", "mono mode"],
-
     price: 80,
     shape: "Bud",
   },
@@ -1119,7 +932,6 @@ const knowledgeBase = {
       "Multipoint",
       "Wireless charging",
     ],
-
     price: 230,
     shape: "Bud",
   },
@@ -1131,7 +943,6 @@ const knowledgeBase = {
       "Metal case",
       "Dirac HD",
     ],
-
     price: 200,
     shape: "Bud",
   },
@@ -1142,7 +953,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Dolby Atmos",
     ],
-
     price: 200,
     shape: "Bud",
   },
@@ -1153,7 +963,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Auto play-pause",
     ],
-
     price: 55,
     shape: "Stem",
   },
@@ -1176,7 +985,6 @@ const knowledgeBase = {
       "Mono mode",
       "Google Fast Pair",
     ],
-
     price: 70,
     shape: "Hook",
   },
@@ -1188,7 +996,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Mono mode",
     ],
-
     price: 60,
     shape: "Bud",
   },
@@ -1203,7 +1010,6 @@ const knowledgeBase = {
       "wear detection",
       "Google Fast Pair",
     ],
-
     price: 80,
     shape: "Hook",
   },
@@ -1215,7 +1021,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Wireless charging",
     ],
-
     price: 280,
     shape: "Bud",
   },
@@ -1264,7 +1069,6 @@ const knowledgeBase = {
       "Fast Pair",
       "Swift Pair",
     ],
-
     price: 180,
     shape: "Stem",
   },
@@ -1275,7 +1079,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Wireless charging",
     ],
-
     price: 230,
     shape: "Bud",
   },
@@ -1287,7 +1090,6 @@ const knowledgeBase = {
       "Sleep mode",
       "wear detection",
     ],
-
     price: 100,
     shape: "Stem",
   },
@@ -1298,7 +1100,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Mono mode",
     ],
-
     price: 200,
     shape: "Bud",
   },
@@ -1309,7 +1110,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Mono mode",
     ],
-
     price: 60,
     shape: "Bud",
   },
@@ -1323,31 +1123,6 @@ const knowledgeBase = {
     price: 120,
     shape: "Stem",
   },
-  "Sennheiser CX 400BT": {
-    features: ["In-app EQ"],
-    price: 120,
-    shape: "Bud",
-  },
-  "Omthing (1MORE) Airfree Buds": {
-    features: ["In-app EQ"],
-    price: 25,
-    shape: "Bud",
-  },
-  "QCY T17S": {
-    features: ["In-app EQ"],
-    price: 25,
-    shape: "Bud",
-  },
-  "Pixel Buds A": {
-    features: ["In-app EQ"],
-    price: 100,
-    shape: "Bud",
-  },
-  "Cambridge Audio Melomania 1+": {
-    features: ["In-app EQ"],
-    price: 60,
-    shape: "Bud",
-  },
   "Bose QuietComfort Ultra Earbuds": {
     features: [
       "Google Fast Pair",
@@ -1357,7 +1132,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Dolby Atmos",
     ],
-
     price: 300,
     shape: "Stem",
   },
@@ -1371,7 +1145,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Multipoint",
     ],
-
     price: 100,
     shape: "Stem",
   },
@@ -1382,7 +1155,6 @@ const knowledgeBase = {
       "Active noise cancelling",
       "Transparency mode",
     ],
-
     price: 60,
     shape: "Stem",
   },
@@ -1395,7 +1167,6 @@ const knowledgeBase = {
       "Dolby Atmos",
       "In-app EQ",
     ],
-
     price: 250,
     shape: "Stem",
   },
@@ -1409,7 +1180,6 @@ const knowledgeBase = {
       "Dolby Atmos",
       "In-app EQ",
     ],
-
     price: 250,
     shape: "Stem",
   },
@@ -1428,18 +1198,12 @@ const knowledgeBase = {
       "In-app EQ",
       "Multipoint",
     ],
-
     price: 349,
     shape: "Bud",
   },
   "Soundcore A20i": {
     features: ["detachable lanyard", "mono mode"],
     price: 30,
-    shape: "Bud",
-  },
-  "Bose Sport Earbuds": {
-    features: ["Customizable shortcuts"],
-    price: 130,
     shape: "Bud",
   },
   "Razer Hammerhead Hyperspeed": {
@@ -1452,14 +1216,8 @@ const knowledgeBase = {
       "In-app EQ",
       "Transparency mode",
     ],
-
     price: 150,
     shape: "Stem",
-  },
-  "HIFIMAN TWS800": {
-    features: ["Built-in amp"],
-    price: 300,
-    shape: "Bud",
   },
   "Philips Fidelio T2": {
     features: [
@@ -1471,7 +1229,6 @@ const knowledgeBase = {
       "Multipoint",
       "Wireless charging",
     ],
-
     price: 279,
     shape: "Bud",
   },
@@ -1485,7 +1242,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Multipoint",
     ],
-
     price: 300,
     shape: "Bud",
   },
@@ -1498,7 +1254,6 @@ const knowledgeBase = {
       "Dolby Atmos",
       "Multipoint",
     ],
-
     price: 170,
     shape: "Bud",
   },
@@ -1511,7 +1266,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Heart rate monitor",
     ],
-
     price: 150,
     shape: "Stem",
   },
@@ -1523,7 +1277,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Multipoint",
     ],
-
     price: 130,
     shape: "Stem",
   },
@@ -1535,7 +1288,6 @@ const knowledgeBase = {
       "In-app EQ",
       "mono mode",
     ],
-
     price: 42,
     shape: "Bud",
   },
@@ -1546,7 +1298,6 @@ const knowledgeBase = {
       "Transparency mode",
       "In-app EQ",
     ],
-
     price: 53,
     shape: "Stem",
   },
@@ -1557,7 +1308,6 @@ const knowledgeBase = {
       "Transparency mode",
       "In-app EQ",
     ],
-
     price: 90,
     shape: "Bud",
   },
@@ -1569,7 +1319,6 @@ const knowledgeBase = {
       "Audio retransmission",
       "wear detection",
     ],
-
     price: 400,
     shape: "Bud",
   },
@@ -1579,7 +1328,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Transparency mode",
     ],
-
     price: 80,
     shape: "Bud",
   },
@@ -1592,7 +1340,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Spatial Audio",
     ],
-
     price: 110,
     shape: "Stem",
   },
@@ -1602,7 +1349,6 @@ const knowledgeBase = {
       "Wireless charging",
       "In-ear detection",
     ],
-
     price: 60,
     shape: "Bud",
   },
@@ -1614,7 +1360,6 @@ const knowledgeBase = {
       "Transparency mode",
       "In-ear detection",
     ],
-
     price: 100,
     shape: "Stem",
   },
@@ -1628,7 +1373,6 @@ const knowledgeBase = {
       "Google Fast Pair",
       "Microsoft Swift Pair",
     ],
-
     price: 400,
     shape: "Stem",
   },
@@ -1645,7 +1389,6 @@ const knowledgeBase = {
       "Multipoint",
       "Spatial audio",
     ],
-
     price: 150,
     shape: "Stem",
   },
@@ -1658,7 +1401,6 @@ const knowledgeBase = {
       "IPX4 case",
       "USB-A bluetooth adapter",
     ],
-
     price: 349,
     shape: "Bud",
   },
@@ -1669,7 +1411,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Multipoint",
     ],
-
     price: 93,
     shape: "Stem",
   },
@@ -1680,7 +1421,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Multipoint",
     ],
-
     price: 93,
     shape: "Stem",
   },
@@ -1691,7 +1431,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Mono mode",
     ],
-
     price: 90,
     shape: "Stem",
   },
@@ -1703,7 +1442,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Multipoint",
     ],
-
     price: 70,
     shape: "Stem",
   },
@@ -1715,7 +1453,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Alexa built-in",
     ],
-
     price: 100,
     shape: "Bud",
   },
@@ -1725,7 +1462,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Wireless charging",
     ],
-
     price: 40,
     shape: "Stem",
   },
@@ -1735,7 +1471,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Wireless charging",
     ],
-
     price: 60,
     shape: "Stem",
   },
@@ -1745,7 +1480,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Wireless charging",
     ],
-
     price: 60,
     shape: "Bud",
   },
@@ -1758,7 +1492,6 @@ const knowledgeBase = {
       "In-app EQ",
       "In-ear detection",
     ],
-
     price: 300,
     shape: "Bud",
   },
@@ -1769,7 +1502,6 @@ const knowledgeBase = {
       "Multipoint",
       "In-ear detection",
     ],
-
     price: 100,
     shape: "Stem",
   },
@@ -1785,7 +1517,6 @@ const knowledgeBase = {
       "Mono mode",
       "in-ear detection",
     ],
-
     price: 80,
     shape: "Stem",
   },
@@ -1796,7 +1527,6 @@ const knowledgeBase = {
       "Low-latency mode",
       "in-ear detection",
     ],
-
     price: 29,
     shape: "Bud",
   },
@@ -1806,7 +1536,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Low-latency mode",
     ],
-
     price: 60,
     shape: "Bud",
   },
@@ -1819,7 +1548,6 @@ const knowledgeBase = {
       "Multipoint",
       "USB-A Bluetooth receiver",
     ],
-
     price: 300,
     shape: "Bud",
   },
@@ -1831,7 +1559,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Multipoint",
     ],
-
     price: 100,
     shape: "Bud",
   },
@@ -1843,7 +1570,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Find my earbuds",
     ],
-
     price: 99,
     shape: "Stem",
   },
@@ -1854,7 +1580,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Multipoint",
     ],
-
     price: 200,
     shape: "Bud",
   },
@@ -1865,7 +1590,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Multipoint",
     ],
-
     price: 300,
     shape: "Stem",
   },
@@ -1900,7 +1624,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Google Fast Pair",
     ],
-
     price: 50,
     shape: "Stem",
   },
@@ -1912,7 +1635,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Automatic transparency",
     ],
-
     price: 180,
     shape: "Bud",
   },
@@ -1923,7 +1645,6 @@ const knowledgeBase = {
       "Dolby Atmos",
       "In-ear detection",
     ],
-
     price: 200,
     shape: "Bud",
   },
@@ -1935,7 +1656,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Mono mode (via app)",
     ],
-
     price: 80,
     shape: "Stem",
   },
@@ -1945,7 +1665,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Battery indicator",
     ],
-
     price: 56,
     shape: "Stem",
   },
@@ -2013,7 +1732,6 @@ const knowledgeBase = {
       "In-app EQ",
       "Alexa Built-in",
     ],
-
     price: 200,
     shape: "Bud",
   },
@@ -2024,7 +1742,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Body temperature sensor",
     ],
-
     price: 140,
     shape: "Stem",
   },
@@ -2042,7 +1759,6 @@ const knowledgeBase = {
       "Wireless charging",
       "Wear detection",
     ],
-
     price: 80,
     shape: "Hook",
   },
@@ -2054,7 +1770,6 @@ const knowledgeBase = {
       "THX Certified",
       "Low-latency mode",
     ],
-
     price: 100,
     shape: "Stem",
   },
@@ -2065,7 +1780,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Dolby Atmos",
     ],
-
     price: 100,
     shape: "Bud",
   },
@@ -2076,7 +1790,6 @@ const knowledgeBase = {
       "Transparency mode",
       "Chroma RGB",
     ],
-
     price: 90,
     shape: "Stem",
   },
@@ -2093,14 +1806,8 @@ const knowledgeBase = {
       "Transparency mode",
       "Wireless charging",
     ],
-
     price: 200,
     shape: "Bud",
-  },
-  "Ugreen HiTune X6": {
-    features: ["Active noise cancelling"],
-    price: 45,
-    shape: "Stem",
   },
   "Logitech G FITS": {
     features: ["2.4 GHz adapter", "In-app EQ"],
@@ -2115,23 +1822,12 @@ const knowledgeBase = {
       "wear detection",
       "Magsafe",
     ],
-
     price: 180,
     shape: "Stem",
   },
   "Marshall Minor III": {
     features: ["Wireless charging", "In-app EQ", "Mono mode"],
     price: 130,
-    shape: "Stem",
-  },
-  "QCY T21 FairyBuds": {
-    features: ["Selfie remote function"],
-    price: 24,
-    shape: "Stem",
-  },
-  "Edifier TO-U2 mini": {
-    features: ["OLED status indicator display; mono mode"],
-    price: 70,
     shape: "Stem",
   },
   "Soundpeats Air4 Lite": {
@@ -2154,19 +1850,9 @@ const knowledgeBase = {
     price: 90,
     shape: "Stem",
   },
-  "Soundpeats Runfree Lite": {
-    features: ["Multipoint"],
-    price: 39.99,
-    shape: "Hook",
-  },
   "Tranya F4": {
     features: ["Low-latency mode", "mono mode"],
     price: 60,
-    shape: "Stem",
-  },
-  "Xiaomi Air2 SE": {
-    features: ["In-ear detection"],
-    price: 25,
     shape: "Stem",
   },
   "Huawei FreeBuds 5": {
@@ -2184,36 +1870,6 @@ const knowledgeBase = {
     price: 48,
     shape: "Stem",
   },
-  "SoundPEATS Air3": {
-    features: ["In-app EQ"],
-    price: 56,
-    shape: "Stem",
-  },
-  "AirPods (2nd generation)": {
-    features: ["In-app EQ"],
-    price: 130,
-    shape: "Stem",
-  },
-  "OnePlus Nord Buds CE": {
-    features: ["In-app EQ"],
-    price: 29,
-    shape: "Stem",
-  },
-  "Cleer Arc": {
-    features: ["In-app EQ"],
-    price: 110,
-    shape: "Hook",
-  },
-  "Redmi Buds 4 Lite": {
-    features: ["Google Fast Pair"],
-    price: 25,
-    shape: "Stem",
-  },
-  "OPPO Enco Air3": {
-    features: ["Google Fast Pair"],
-    price: 30,
-    shape: "Stem",
-  },
   "Echo Buds (2023)": {
     features: ["Alexa built-in", "Find My Echo Buds", "Multipoint"],
     price: 50,
@@ -2226,7 +1882,6 @@ const knowledgeBase = {
   },
   "Xiaomi Buds 4": {
     features: ["Active noise cancelling", "Transparency mode", "Spatial audio"],
-
     price: 102,
     shape: "Stem",
   },
@@ -2236,5 +1891,4 @@ const knowledgeBase = {
     shape: "Stem",
   },
 };
-
 export default knowledgeBase;
