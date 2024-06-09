@@ -3,6 +3,7 @@ import knowledgeBase from "../assets/earphone";
 import { earbud_categories } from "../assets/shape";
 import PriceQuestion from "./questions/PriceQuestion";
 import ShapeQuestion from "./questions/ShapeQuestion";
+import Question from "./questions/Question";
 type earphoneFeatureType = {
   categoria: string;
   opciones: string[];
@@ -28,17 +29,14 @@ const categorias: earphoneFeatureType[] = [
   },
 ];
 
-const Unique_Shapes_of_Earbuds: string[] = ["Bud", "Stem", "Hook"];
-
 function Recomendador() {
-  const [respuestas, setRespuestas] = useState({});
-  const [categoriaIndex, setCategoriaIndex] = useState(-2);
-  const [sintomaIndex, setSintomaIndex] = useState(0);
-  const [diagnostico, setDiagnostico] = useState("");
-  const [price, setPrice] = useState(null);
-  const [shape, setShape] = useState(null);
-
-  const [earbud, setEarbud] = useState(null);
+  const [respuestas, setRespuestas] = useState<Record<string, any>>({});
+  const [categoriaIndex, setCategoriaIndex] = useState<number>(-2);
+  const [sintomaIndex, setSintomaIndex] = useState<number>(0);
+  const [diagnostico, setDiagnostico] = useState<string>("");
+  const [price, setPrice] = useState<number | null>(null);
+  const [shape, setShape] = useState<string | null>(null);
+  const [earbud, setEarbud] = useState<any>(null);
 
   useEffect(() => {
     if (diagnostico) {
@@ -51,14 +49,14 @@ function Recomendador() {
     }
   }, [diagnostico]);
 
-  const procesarRespuesta = (respuesta) => {
-    if (categoriaIndex === -2) {
+  const procesarRespuesta = (respuesta: number | string) => {
+    if (categoriaIndex === -2 && typeof respuesta === "number") {
       setPrice(respuesta);
       setCategoriaIndex(-1);
       return;
     }
     if (categoriaIndex === -1) {
-      setShape(respuesta);
+      setShape(respuesta as string);
       setCategoriaIndex(0);
       return;
     }
@@ -124,26 +122,10 @@ function Recomendador() {
         <ShapeQuestion procesarRespuesta={procesarRespuesta} />
       )}
       {categoriaIndex >= 0 && !diagnostico && (
-        <div className="mb-4">
-          <h3 className="mb-4 text-2xl">
-            ¿El audífono tiene{" "}
-            {categorias[categoriaIndex]?.opciones[sintomaIndex]}?
-          </h3>
-          <div>
-            <button
-              className="px-4 py-2 mr-2 text-white bg-red-500"
-              onClick={() => procesarRespuesta("Sí")}
-            >
-              Sí
-            </button>
-            <button
-              className="px-4 py-2 mr-2 text-white bg-blue-500"
-              onClick={() => procesarRespuesta("No")}
-            >
-              No
-            </button>
-          </div>
-        </div>
+        <Question
+          procesarRespuesta={procesarRespuesta}
+          sintoma={categorias[categoriaIndex]?.opciones[sintomaIndex]}
+        />
       )}
       {diagnostico && (
         <div className="mb-4">
@@ -159,7 +141,7 @@ function Recomendador() {
             <div>
               <h3 className="mb-4 text-2xl">Características:</h3>
               <ul>
-                {earbud.features.map((feature) => (
+                {earbud.features.map((feature: string) => (
                   <li key={feature}>{feature}</li>
                 ))}
               </ul>
