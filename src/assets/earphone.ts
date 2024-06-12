@@ -1,4 +1,12 @@
-const knowledgeBase = {
+type KnowledgeBase = {
+  [key: string]: {
+    features: string[];
+    price: number;
+    shape: "Stem" | "Bud" | "Hook";
+  };
+};
+
+const knowledgeBase: KnowledgeBase = {
   "Baseus Encok W06": {
     features: ["Wireless charging", "Wear detection. mono mode"],
     price: 68,
