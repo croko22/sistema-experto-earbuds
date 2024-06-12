@@ -8,7 +8,7 @@ function App() {
         Sistema Experto para Auriculares True Wireless
       </h1>
       <img
-        src="wireless-earbuds.jpg"
+        src="images/wireless-earbuds.jpg"
         alt="Placeholder"
         className="object-cover w-full rounded-md h-96"
       />
