@@ -26,7 +26,9 @@ const Unique_Shapes_of_Earbuds: any[] = [
 const ShapeQuestion: FC<ShapeQuestionProps> = ({ procesarRespuesta }) => {
   return (
     <div className="mb-4">
-      <h3 className="mb-4 text-2xl">Seleccione la forma del auricular:</h3>
+      <h3 className="mb-4 text-2xl font-bold text-gray-800">
+        Seleccione la forma del auricular:
+      </h3>
       <div>
         {Unique_Shapes_of_Earbuds.map((shapeOption) => (
           <div
@@ -42,7 +44,7 @@ const ShapeQuestion: FC<ShapeQuestionProps> = ({ procesarRespuesta }) => {
             </figure>
             <div className="justify-center card-actions">
               <button
-                className="btn"
+                className="btn btn-ghost"
                 onClick={() => procesarRespuesta(shapeOption.value)}
               >
                 {shapeOption.spanish}

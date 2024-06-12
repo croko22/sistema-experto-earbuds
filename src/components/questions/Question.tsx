@@ -7,20 +7,24 @@ const Question: React.FC<QuestionProps> = ({ procesarRespuesta, sintoma }) => {
   return (
     <div className="mb-4">
       {sintoma ? (
-        <h3 className="mb-4 text-2xl">¿El audífono tiene {sintoma} ?</h3>
+        <h3 className="mb-4 text-2xl font-bold text-center text-gray-800">
+          ¿El audífono tiene {sintoma} ?
+        </h3>
       ) : (
-        <h3 className="mb-4 text-2xl">No hay más preguntas :( </h3>
+        <h3 className="mb-4 text-2xl font-bold text-center text-gray-800">
+          No hay más preguntas :({" "}
+        </h3>
       )}
       {sintoma && (
-        <div>
+        <div className="flex flex-wrap justify-center">
           <button
-            className="px-4 py-2 mr-2 text-white bg-red-500"
+            className="mr-2 btn btn-primary"
             onClick={() => procesarRespuesta("Sí")}
           >
             Sí
           </button>
           <button
-            className="px-4 py-2 mr-2 text-white bg-blue-500"
+            className="btn btn-secondary"
             onClick={() => procesarRespuesta("No")}
           >
             No
