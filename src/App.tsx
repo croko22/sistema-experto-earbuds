@@ -4,20 +4,20 @@ import Recomendador from "./components/Recomendador";
 function App() {
   return (
     <body className="max-h-screen antialiased bg-white">
-      <h1 className="mt-8 mb-4 text-4xl font-light text-center">
-        Sistema Experto para Auriculares True Wireless
-      </h1>
-      <img
-        src="images/wireless-earbuds.jpg"
-        alt="Placeholder"
-        className="object-cover w-full rounded-md h-96"
-      />
+      <div
+        className=" hero min-h-[80vh]"
+        style={{ backgroundImage: "url(images/wireless-earbuds.jpg)" }}
+      >
+        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="max-w-lg text-center hero-content">
+          <h1 className="mb-5 text-5xl font-bold">
+            Sistema Experto para Auriculares True Wireless
+          </h1>
+        </div>
+      </div>
       <Drawer.Root shouldScaleBackground>
-        <Drawer.Trigger
-          asChild
-          className="fixed transform -translate-x-1/2 left-1/2"
-        >
-          <button className="px-8 py-4 mt-10 text-2xl text-white transition-colors duration-200 bg-blue-500 rounded-lg shadow-lg hover:bg-blue-600">
+        <Drawer.Trigger className="fixed transform -translate-x-1/2 left-1/2">
+          <button className="my-5 btn btn-success">
             Encuentra tus auriculares ideales
           </button>
         </Drawer.Trigger>
