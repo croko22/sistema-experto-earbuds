@@ -4,17 +4,22 @@ interface ShapeQuestionProps {
   procesarRespuesta: (respuesta: string) => void;
 }
 
-// const Unique_Shapes_of_Earbuds: string[] = ["Bud", "Stem", "Hook"];
-const Unique_Shapes_of_Earbuds: any[] = [
+type ShapeOption = {
+  value: string;
+  spanish: string;
+  image: string;
+};
+
+const Unique_Shapes_of_Earbuds: ShapeOption[] = [
   {
     value: "Bud",
     spanish: "Bud | Intraurales",
-    image: "bud.jpg",
+    image: "bud.webp",
   },
   {
     value: "Stem",
     spanish: "Stem | Con tallo",
-    image: "stem.jpeg",
+    image: "stem.webp",
   },
   {
     value: "Hook",
