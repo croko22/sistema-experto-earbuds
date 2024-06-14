@@ -1,37 +1,109 @@
 import { useEffect, useState } from "react";
-import knowledgeBase from "../assets/earphone";
-import { earbud_categories } from "../assets/shape";
 import PriceQuestion from "./questions/PriceQuestion";
 import ShapeQuestion from "./questions/ShapeQuestion";
 import Question from "./questions/Question";
+import Result from "./questions/Result";
+//* SISTEMA EXPERTO
+import knowledgeBase from "../assets/earphone";
+import { earbud_categories } from "../assets/shape";
 type earphoneFeatureType = {
   categoria: string;
   opciones: string[];
 };
 
 const categorias: earphoneFeatureType[] = [
-  // const categorias: earphoneFeatureType[] = earbud_categories || [
   {
     categoria: "Modo",
     opciones: ["Selfie remote function"],
   },
   {
-    categoria: "WEA",
+    categoria: "NULL",
     opciones: ["3D audio"],
   },
   {
-    categoria: "WEA",
+    categoria: "NULL",
     opciones: ["Active noise cancelling"],
   },
   {
-    categoria: "WEA",
+    categoria: "NULL",
     opciones: ["In-app EQ"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Transparency mode"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Wireless charging"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Multipoint"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Dolby Atmos"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Spatial audio"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Wear detection"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Tile tracking"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Find my earbuds"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Mono mode"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Battery percentage meter"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["In-ear detection"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Low-latency mode"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Google Fast Pair"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Microsoft Swift Pair"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Mil-std-810g"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["Thx certified"],
+  },
+  {
+    categoria: "NULL",
+    opciones: ["User-replaceable batteries"],
   },
 ];
 
 function Recomendador() {
-  const [respuestas, setRespuestas] = useState<Record<string, any>>({});
   const [categoriaIndex, setCategoriaIndex] = useState<number>(-2);
+  const [respuestas, setRespuestas] = useState<Record<string, any>>({});
+
+  const [opcionesRestantes, setOpcionesRestantes] = useState<any[]>([]);
+
   const [sintomaIndex, setSintomaIndex] = useState<number>(0);
   const [diagnostico, setDiagnostico] = useState<string>("");
   const [price, setPrice] = useState<number | null>(null);
@@ -50,16 +122,20 @@ function Recomendador() {
   }, [diagnostico]);
 
   const procesarRespuesta = (respuesta: number | string) => {
+    //*Regla 1 - Si el usuario responde con un número en la primera pregunta, se asume que es el precio máximo que está dispuesto a pagar
     if (categoriaIndex === -2 && typeof respuesta === "number") {
       setPrice(respuesta);
       setCategoriaIndex(-1);
       return;
     }
+    //*Regla 2 - Si el usuario responde con un string en la primera pregunta, se asume que es la forma del auricular
     if (categoriaIndex === -1) {
       setShape(respuesta as string);
       setCategoriaIndex(0);
       return;
     }
+
+    //*Regla 3 - Si el usuario responde la pregunta de caracteristicas, se asume que es la respuesta a la pregunta actual
     const sintomasCategoria = categorias[categoriaIndex].opciones;
     const sintomaActual = sintomasCategoria[sintomaIndex];
     const nuevosHechos = { ...respuestas, [sintomaActual]: respuesta };
@@ -69,9 +145,12 @@ function Recomendador() {
       return;
     }
 
+    //*Filtrar las opciones restantes
     const categoriasRestantes = categorias.slice(categoriaIndex + 1);
     const opcionesRestantes = Object.entries(knowledgeBase).filter(
       ([nombre, { features }]) =>
+        (!price || knowledgeBase[nombre].price <= price) &&
+        (!shape || knowledgeBase[nombre].shape === shape) &&
         sintomasCategoria.some(
           (sintoma) =>
             nuevosHechos[sintoma] === "Sí" && features.includes(sintoma)
@@ -82,10 +161,9 @@ function Recomendador() {
               nuevosHechos[opcion] === "No" ||
               !nuevosHechos.hasOwnProperty(opcion)
           )
-        ) &&
-        (!price || knowledgeBase[nombre].price <= price) &&
-        (!shape || knowledgeBase[nombre].shape === shape)
+        )
     );
+    setOpcionesRestantes(opcionesRestantes);
 
     if (opcionesRestantes.length === 1) {
       setDiagnostico(opcionesRestantes[0][0]);
@@ -125,30 +203,11 @@ function Recomendador() {
         <Question
           procesarRespuesta={procesarRespuesta}
           sintoma={categorias[categoriaIndex]?.opciones[sintomaIndex]}
+          resetear={resetear}
         />
       )}
       {diagnostico && (
-        <div className="mb-4">
-          <p className="mb-4 text-xl">Recomendación: {diagnostico}</p>
-          <button
-            onClick={resetear}
-            className="px-4 py-2 text-white bg-red-500"
-          >
-            Reiniciar Diagnóstico
-          </button>
-
-          {earbud && (
-            <div>
-              <h3 className="mb-4 text-2xl">Características:</h3>
-              <ul>
-                {earbud.features.map((feature: string) => (
-                  <li key={feature}>{feature}</li>
-                ))}
-              </ul>
-              <p className="mt-4">Precio: ${earbud.price}</p>
-            </div>
-          )}
-        </div>
+        <Result diagnostico={diagnostico} earbud={earbud} resetear={resetear} />
       )}
     </div>
   );
