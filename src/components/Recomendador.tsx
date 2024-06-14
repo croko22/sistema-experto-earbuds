@@ -3,7 +3,6 @@ import PriceQuestion from "./questions/PriceQuestion";
 import ShapeQuestion from "./questions/ShapeQuestion";
 import Question from "./questions/Question";
 import Result from "./questions/Result";
-//* SISTEMA EXPERTO
 import knowledgeBase from "../assets/earphone";
 import { earbud_categories } from "../assets/shape";
 type earphoneFeatureType = {
@@ -75,22 +74,6 @@ const categorias: earphoneFeatureType[] = [
   {
     categoria: "NULL",
     opciones: ["Low-latency mode"],
-  },
-  {
-    categoria: "NULL",
-    opciones: ["Google Fast Pair"],
-  },
-  {
-    categoria: "NULL",
-    opciones: ["Microsoft Swift Pair"],
-  },
-  {
-    categoria: "NULL",
-    opciones: ["Mil-std-810g"],
-  },
-  {
-    categoria: "NULL",
-    opciones: ["Thx certified"],
   },
   {
     categoria: "NULL",
