@@ -85,7 +85,9 @@ function Recomendador() {
   const [categoriaIndex, setCategoriaIndex] = useState<number>(-2);
   const [respuestas, setRespuestas] = useState<Record<string, any>>({});
 
-  const [opcionesRestantes, setOpcionesRestantes] = useState<any[]>([]);
+  const [opcionesRestantes, setOpcionesRestantes] = useState(
+    Object.entries(knowledgeBase)
+  );
 
   const [sintomaIndex, setSintomaIndex] = useState<number>(0);
   const [diagnostico, setDiagnostico] = useState<string>("");
@@ -108,17 +110,28 @@ function Recomendador() {
     //*Regla 1 - Si el usuario responde con un número en la primera pregunta, se asume que es el precio máximo que está dispuesto a pagar
     if (categoriaIndex === -2 && typeof respuesta === "number") {
       setPrice(respuesta);
+      setOpcionesRestantes((prevOpciones) => {
+        return prevOpciones.filter(
+          ([nombre, { price }]) => !price || price <= respuesta
+        );
+      });
       setCategoriaIndex(-1);
+
       return;
     }
     //*Regla 2 - Si el usuario responde con un string en la primera pregunta, se asume que es la forma del auricular
     if (categoriaIndex === -1) {
       setShape(respuesta as string);
+      setOpcionesRestantes((prevOpciones) => {
+        return prevOpciones.filter(
+          ([nombre, { shape }]) => !shape || shape === respuesta
+        );
+      });
       setCategoriaIndex(0);
       return;
     }
 
-    //*Regla 3 - Si el usuario responde la pregunta de caracteristicas, se asume que es la respuesta a la pregunta actual
+    //*Reglas de caracteristicas - Si el usuario responde la pregunta de caracteristicas, se asume que es la respuesta a la pregunta actual
     const sintomasCategoria = categorias[categoriaIndex].opciones;
     const sintomaActual = sintomasCategoria[sintomaIndex];
     const nuevosHechos = { ...respuestas, [sintomaActual]: respuesta };
@@ -129,24 +142,15 @@ function Recomendador() {
     }
 
     //*Filtrar las opciones restantes
-    const categoriasRestantes = categorias.slice(categoriaIndex + 1);
-    const opcionesRestantes = Object.entries(knowledgeBase).filter(
-      ([nombre, { features }]) =>
-        (!price || knowledgeBase[nombre].price <= price) &&
-        (!shape || knowledgeBase[nombre].shape === shape) &&
-        sintomasCategoria.some(
-          (sintoma) =>
-            nuevosHechos[sintoma] === "Sí" && features.includes(sintoma)
-        ) &&
-        categoriasRestantes.every((categoria) =>
-          categoria.opciones.some(
-            (opcion) =>
-              nuevosHechos[opcion] === "No" ||
-              !nuevosHechos.hasOwnProperty(opcion)
-          )
+    // const categoriasRestantes = categorias.slice(categoriaIndex + 1);
+    setOpcionesRestantes((prevOpciones) =>
+      prevOpciones.filter(([nombre, { features }]) =>
+        Object.entries(nuevosHechos).every(
+          ([sintoma, respuesta]) =>
+            respuesta !== "Sí" || features.includes(sintoma)
         )
+      )
     );
-    setOpcionesRestantes(opcionesRestantes);
 
     if (opcionesRestantes.length === 1) {
       setDiagnostico(opcionesRestantes[0][0]);
@@ -189,6 +193,7 @@ function Recomendador() {
           resetear={resetear}
         />
       )}
+      <p>Posibles diagnósticos: {opcionesRestantes.length}</p>
       {diagnostico && (
         <Result diagnostico={diagnostico} earbud={earbud} resetear={resetear} />
       )}
